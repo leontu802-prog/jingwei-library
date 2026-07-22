@@ -6220,6 +6220,47 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "petrarch",
+    "subject": "literature",
+    "region": "world",
+    "year": 1341,
+    "dates": "1304—1374",
+    "name": "弗朗切斯科·彼特拉克",
+    "alias": "人文主义之父",
+    "era": "medieval",
+    "period": "意大利",
+    "summary": "以攀登文图峰和致劳拉十四行诗宣告中世纪结束和文艺复兴个人意识的觉醒。",
+    "life": "阿雷佐人阿维尼翁教廷成长终生以拉丁文写作却以意大利方言诗歌闻名。",
+    "context": "从经院学术到古典文本的人文主义转向。",
+    "style": [
+      "以个人经验为文学中心"
+    ],
+    "ideas": [
+      "重新发现古典"
+    ],
+    "works": [
+      {
+        "title": "歌集",
+        "year": "约1341",
+        "intro": "366首意大利语诗歌写对劳拉的爱与自身的灵魂探索。"
+      }
+    ],
+    "links": [
+      [
+        "dante",
+        "从神曲到人曲"
+      ],
+      [
+        "boccaccio",
+        "文艺复兴文学三杰"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "philosophy"
+    ]
+  },
+  {
     "id": "boccaccio",
     "subject": "literature",
     "region": "world",
@@ -6689,6 +6730,47 @@ const AUTHORS = [
     "era": "early-modern"
   },
   {
+    "id": "montaigne",
+    "subject": "philosophy",
+    "region": "world",
+    "year": 1580,
+    "dates": "1533—1592",
+    "name": "米歇尔·德·蒙田",
+    "alias": "随笔的发明者",
+    "era": "early-modern",
+    "period": "法国",
+    "summary": "以三卷《随笔集》发明了一种全新的文体用自己作为研究人类的唯一样本。",
+    "life": "法国波尔多贵族曾任市长退休后在城堡书房中写作以\"我知道什么\"为座右铭。",
+    "context": "宗教战争撕裂法国在教条对立中保持怀疑成为一种智慧。",
+    "style": [
+      "以自我为实验对象"
+    ],
+    "ideas": [
+      "我知道什么"
+    ],
+    "works": [
+      {
+        "title": "随笔集",
+        "year": "1580",
+        "intro": "107篇散文以自己为材料探索人类境况的全部维度。"
+      }
+    ],
+    "links": [
+      [
+        "socrates",
+        "从对话到随笔的自我探索"
+      ],
+      [
+        "shakespeare",
+        "蒙田对莎士比亚的影响"
+      ]
+    ],
+    "subjects": [
+      "philosophy",
+      "literature"
+    ]
+  },
+  {
     "id": "tangxianzu",
     "subject": "literature",
     "region": "china",
@@ -6818,6 +6900,42 @@ const AUTHORS = [
     ],
     "subjects": [
       "philosophy",
+      "history"
+    ]
+  },
+  {
+    "id": "caravaggio",
+    "subject": "history",
+    "region": "world",
+    "year": 1600,
+    "dates": "1571—1610",
+    "name": "卡拉瓦乔",
+    "alias": "巴洛克绘画革命者",
+    "era": "early-modern",
+    "period": "意大利",
+    "summary": "以极端的光影对比和作为模特的底层人民彻底改变了欧洲绘画的方向。",
+    "life": "米兰人一生打架斗殴逃亡教皇骑士勋章又被剥夺39岁死于海滩。",
+    "context": "宗教改革后天主教会需要更有冲击力的艺术来感召信徒。",
+    "style": [
+      "以市井小民入圣画"
+    ],
+    "ideas": [
+      "光从黑暗中创造生命"
+    ],
+    "works": [
+      {
+        "title": "圣马太蒙召",
+        "year": "1600",
+        "intro": "以一道光将税吏变成圣徒。"
+      }
+    ],
+    "links": [
+      [
+        "rembrandt",
+        "光影革命的两条路径"
+      ]
+    ],
+    "subjects": [
       "history"
     ]
   },
@@ -9238,6 +9356,47 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "turner",
+    "subject": "history",
+    "region": "world",
+    "year": 1842,
+    "dates": "1775—1851",
+    "name": "J.M.W.透纳",
+    "alias": "光色革命者",
+    "era": "modern",
+    "period": "英国",
+    "summary": "以雨蒸汽与速度将绘画从描绘物体转向描绘光与气氛本身预告了印象派和抽象艺术。",
+    "life": "伦敦人皇家美术学院史上最年轻院士晚年隐居以海景和暴风雪为毕生主题。",
+    "context": "工业革命改变视觉经验蒸汽和速度成为新的美感。",
+    "style": [
+      "将光从形体中解放"
+    ],
+    "ideas": [
+      "朦胧作为更高的真实"
+    ],
+    "works": [
+      {
+        "title": "雨蒸汽与速度",
+        "year": "1844",
+        "intro": "以模糊的轮廓画一列火车穿过暴风雨。"
+      },
+      {
+        "title": "被拖去解体的战舰无畏号",
+        "year": "1839",
+        "intro": "以落日中的旧战舰哀悼一个时代的终结。"
+      }
+    ],
+    "links": [
+      [
+        "monet",
+        "从透纳到印象派的光色革命"
+      ]
+    ],
+    "subjects": [
+      "history"
+    ]
+  },
+  {
     "id": "kierkegaard",
     "subject": "philosophy",
     "region": "world",
@@ -10661,6 +10820,42 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "cezanne",
+    "subject": "history",
+    "region": "world",
+    "year": 1900,
+    "dates": "1839—1906",
+    "name": "保罗·塞尚",
+    "alias": "现代绘画之父",
+    "era": "modern",
+    "period": "法国",
+    "summary": "以圣维克多山系列将自然简化为圆柱球体和圆锥预告了立体主义和全部现代艺术。",
+    "life": "法国普罗旺斯人一生不为巴黎承认晚年孤独作画。",
+    "context": "后印象派需要超越印象派的瞬间感寻找更坚实的结构。",
+    "style": [
+      "将自然几何化"
+    ],
+    "ideas": [
+      "用色彩重建坚固的世界"
+    ],
+    "works": [
+      {
+        "title": "圣维克多山系列",
+        "year": "1882—1906",
+        "intro": "以同一座山画了80余次探索形式与色彩的根本关系。"
+      }
+    ],
+    "links": [
+      [
+        "picasso",
+        "从塞尚到立体主义"
+      ]
+    ],
+    "subjects": [
+      "history"
+    ]
+  },
+  {
     "id": "liangqichao",
     "subject": "politics",
     "region": "china",
@@ -11301,6 +11496,42 @@ const AUTHORS = [
     "subjects": [
       "history",
       "philosophy"
+    ]
+  },
+  {
+    "id": "duchamp",
+    "subject": "history",
+    "region": "world",
+    "year": 1917,
+    "dates": "1887—1968",
+    "name": "马塞尔·杜尚",
+    "alias": "艺术定义者",
+    "era": "modern",
+    "period": "法国—美国",
+    "summary": "以一个小便池彻底质问什么才是艺术将艺术从视网膜转向大脑。",
+    "life": "法国人在纽约以现成品动摇全部艺术制度晚年宣称放弃艺术而秘密创作最后作品。",
+    "context": "一战后的虚无主义中艺术的边界本身成为唯一有趣的问题。",
+    "style": [
+      "现成品颠覆艺术定义"
+    ],
+    "ideas": [
+      "艺术是选择不是制作"
+    ],
+    "works": [
+      {
+        "title": "泉",
+        "year": "1917",
+        "intro": "以署名R.Mutt的小便池参展被拒成为20世纪最重要艺术品争论。"
+      }
+    ],
+    "links": [
+      [
+        "picasso",
+        "从重构视觉到质疑艺术本身"
+      ]
+    ],
+    "subjects": [
+      "history"
     ]
   },
   {
@@ -13537,6 +13768,47 @@ const AUTHORS = [
       "sociology"
     ],
     "era": "contemporary"
+  },
+  {
+    "id": "warhol",
+    "subject": "literature",
+    "region": "world",
+    "year": 1962,
+    "dates": "1928—1987",
+    "name": "安迪·沃霍尔",
+    "alias": "波普艺术教主",
+    "era": "contemporary",
+    "period": "美国",
+    "summary": "以金宝汤罐头和玛丽莲梦露丝网版画将消费社会的图像提升为艺术同时讽刺了艺术的概念。",
+    "life": "匹兹堡移民家庭出身在纽约从商业插画起步在银色工厂中制造艺术也制造自己。",
+    "context": "消费社会和大众媒体正在重新定义文化和身份。",
+    "style": [
+      "复制与重复的美学"
+    ],
+    "ideas": [
+      "每个人都能成名十五分钟"
+    ],
+    "works": [
+      {
+        "title": "金宝汤罐头",
+        "year": "1962",
+        "intro": "三十二幅几乎相同的汤罐头画提问什么是原创。"
+      },
+      {
+        "title": "玛丽莲双联画",
+        "year": "1962",
+        "intro": "以丝网印复制玛丽莲梦露在死亡与名望之间。"
+      }
+    ],
+    "links": [
+      [
+        "duchamp",
+        "从现成品到工厂制品"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
   },
   {
     "id": "plath",
