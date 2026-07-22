@@ -3,8 +3,19 @@ const { SUBJECTS, PAIRS, BOOKS, ERA_STORIES, AUTHORS } = window.KNOWLEDGE_DATA
 
 const state = {
   subject: 'all', era: 'all', region: 'all', timelineQuery: '', savedOnly: false,
-  mapMode: 'atlas', bookSubject: 'all', bookRegion: 'all', status: 'all', bookQuery: ''
+  mapMode: 'atlas', bookSubject: 'all', bookRegion: 'all', status: 'all', bookQuery: '',
+  coreOnly: false
 }
+
+// 首批24位核心人物ID
+const CORE_AUTHORS = new Set([
+  'quyuan','libai','caoxueqin','luxun',
+  'xunzi','ibnkhaldun','durkheim','feixiaotong',
+  'shangyang','plato','huangzongxi','rawls',
+  'simaqian','herodotus','simaguang','braudel',
+  'confucius','zhuangzi','wangyangming','descartes',
+  'zhangsunwuji','montesquieu','shenjiaben','hart'
+])
 const saved = new Set(JSON.parse(localStorage.getItem('chronicle_saved') || '[]'))
 const progress = JSON.parse(localStorage.getItem('chronicle_progress') || '{}')
 const hasLocalStateServer = ['127.0.0.1', 'localhost'].includes(window.location.hostname)
@@ -56,6 +67,7 @@ function currentAuthors({ignoreEra = false} = {}) {
     (state.subject === 'all' || author.subject === state.subject) &&
     (ignoreEra || state.era === 'all' || author.era === state.era) &&
     (state.region === 'all' || author.region === state.region) &&
+    (!state.coreOnly || CORE_AUTHORS.has(author.id)) &&
     (!query || authorHaystack(author).includes(query))
   ).sort((a, b) => a.year - b.year)
 }
@@ -265,9 +277,9 @@ function switchView(name) {
 }
 
 function clearMapFilters() {
-  state.subject = 'all'; state.era = 'all'; state.region = 'all'; state.timelineQuery = ''; state.savedOnly = false
+  state.subject = 'all'; state.era = 'all'; state.region = 'all'; state.timelineQuery = ''; state.savedOnly = false; state.coreOnly = false
   $('#timelineSearch').value = ''; $('#eraFilter').value = 'all'; $('#mapRegionFilter').value = 'all'
-  $('#savedOnly').classList.remove('is-on')
+  $('#savedOnly').classList.remove('is-on'); $('#coreToggle').checked = false
   renderSubjectFilters('#subjectFilters', 'subject'); renderMap(); renderTimeline()
 }
 
@@ -290,6 +302,7 @@ function bind() {
   $('#eraFilter').onchange = event => { state.era = event.target.value; renderMap(); renderTimeline() }
   $('#mapRegionFilter').onchange = event => { state.region = event.target.value; renderMap() }
   $('#savedOnly').onclick = () => { state.savedOnly = !state.savedOnly; $('#savedOnly').classList.toggle('is-on', state.savedOnly); renderTimeline() }
+  $('#coreToggle').onchange = event => { state.coreOnly = event.target.checked; renderMap(); renderTimeline() }
   $('#clearTimelineFilters').onclick = clearMapFilters
   $('#clearMapFilters').onclick = clearMapFilters
   $('#bookSearch').oninput = event => { state.bookQuery = event.target.value; renderBooks() }
