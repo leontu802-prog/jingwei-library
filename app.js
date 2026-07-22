@@ -63,8 +63,9 @@ function authorHaystack(author) {
 
 function currentAuthors({ignoreEra = false} = {}) {
   const query = state.timelineQuery.trim().toLowerCase()
+  const subj = state.subject
   return AUTHORS.filter(author =>
-    (state.subject === 'all' || author.subject === state.subject) &&
+    (subj === 'all' || (author.subjects || [author.subject]).includes(subj)) &&
     (ignoreEra || state.era === 'all' || author.era === state.era) &&
     (state.region === 'all' || author.region === state.region) &&
     (!state.coreOnly || CORE_AUTHORS.has(author.id)) &&
@@ -111,7 +112,7 @@ function renderIdeaFlow() {
   const subjects = state.subject === 'all' ? SUBJECTS : [subject(state.subject)]
   const list = currentAuthors({ignoreEra: true})
   $('#ideaFlow').innerHTML = `<div class="flow-heading"><small>THREADS OF INFLUENCE</small><strong>思想与文体如何接力</strong><p>连线表示继承、改写或值得对照的问题，不等同于直接师承。</p></div>` +
-    subjects.map(item => flowLane(item, list.filter(author => author.subject === item.id))).join('')
+    subjects.map(item => flowLane(item, list.filter(author => (author.subjects || [author.subject]).includes(item.id)))).join('')
 }
 
 function renderEraRail() {
@@ -188,13 +189,15 @@ function openAuthor(id) {
   const author = authorById(id)
   if (!author) return
   const discipline = subject(author.subject)
+  const allSubjects = (author.subjects || [author.subject]).map(sid => subject(sid)).filter(Boolean)
+  const subjTags = allSubjects.length > 1 ? `<span class="drawer-subjects">${allSubjects.map(s => `<span style="background:${s.color}20;color:${s.color};border:1px solid ${s.color}40;padding:2px 8px;border-radius:99px;font-size:12px;margin-right:6px">${s.name}</span>`).join('')}</span>` : ''
   const relations = author.links.map(([targetId, label]) => {
     const target = authorById(targetId)
     return target ? `<button class="relation-card" data-author="${target.id}"><span>${label}</span><b>${target.name}</b><small>${target.period} →</small></button>` : ''
   }).join('')
   $('#drawerContent').innerHTML = `
     <div class="author-drawer-head" style="--subject-color:${discipline.color}"><span class="author-hero-mark">${author.name.slice(0, 1)}</span>
-      <div><span class="drawer-subject">${discipline.name} · ${author.region === 'china' ? '中国' : '全球'}</span><h2>${author.name}</h2><div class="drawer-person">${author.dates} · ${author.period}</div></div></div>
+      <div><span class="drawer-subject">${discipline.name} · ${author.region === 'china' ? '中国' : '全球'}</span>${subjTags}<h2>${author.name}</h2><div class="drawer-person">${author.dates} · ${author.period}</div></div></div>
     <p class="drawer-deck">${author.summary}</p>
     <div class="drawer-section"><small>时代坐标</small><p>${author.context}</p></div>
     <div class="drawer-section"><small>生平经历</small><p>${author.life}</p></div>
