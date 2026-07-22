@@ -6220,6 +6220,44 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "alighieri",
+    "subject": "literature",
+    "region": "world",
+    "year": 1321,
+    "dates": "1265—1321",
+    "name": "但丁·阿利吉耶里",
+    "alias": "中世纪文学的最高峰",
+    "era": "medieval",
+    "period": "意大利",
+    "summary": "以神曲地狱炼狱天堂的灵魂旅程整合神学政治与个人爱情。",
+    "life": "生于佛罗伦萨活跃于城邦政治后因党派斗争被终身流放。",
+    "context": "教皇与皇帝之争城邦共和制与流放经验。",
+    "style": [
+      "三韵体与致密结构",
+      "象征与字面意义的双层叙事"
+    ],
+    "ideas": [
+      "爱与智慧的提升之路"
+    ],
+    "works": [
+      {
+        "title": "神曲",
+        "year": "约1321",
+        "intro": "从黑暗森林出发穿越地狱炼狱与天堂的旅程。"
+      }
+    ],
+    "links": [
+      [
+        "homer",
+        "从英雄冒险到灵魂之旅"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "philosophy"
+    ]
+  },
+  {
     "id": "petrarch",
     "subject": "literature",
     "region": "world",
@@ -6937,6 +6975,79 @@ const AUTHORS = [
     ],
     "subjects": [
       "history"
+    ]
+  },
+  {
+    "id": "shakespeare_w",
+    "subject": "literature",
+    "region": "world",
+    "year": 1600,
+    "dates": "1564—1616",
+    "name": "威廉·莎士比亚",
+    "alias": "英语文学与戏剧的顶峰",
+    "era": "early-modern",
+    "period": "英格兰",
+    "summary": "以无与伦比的语言创造力把人性权力爱情与命运放在戏剧中反复实验。",
+    "life": "生于斯特拉特福青年赴伦敦成为演员剧作家。",
+    "context": "伦敦剧场兴盛都铎王朝权威巩固。",
+    "style": [
+      "跨文体融合",
+      "无韵诗与口语自由切换"
+    ],
+    "ideas": [
+      "人性在极端处境下的选择"
+    ],
+    "works": [
+      {
+        "title": "哈姆雷特",
+        "year": "约1600",
+        "intro": "以复仇困境讨论行动知识与生死的哲学问题。"
+      }
+    ],
+    "links": [
+      [
+        "dante",
+        "从地狱到戏剧的内部审判"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
+    "id": "cervantes",
+    "subject": "literature",
+    "region": "world",
+    "year": 1605,
+    "dates": "1547—1616",
+    "name": "米格尔·德·塞万提斯",
+    "alias": "现代小说之父",
+    "era": "early-modern",
+    "period": "西班牙",
+    "summary": "以堂吉诃德创造了第一部现代小说。",
+    "life": "西班牙人参加勒班陀海战失去左臂被海盗囚禁五年。",
+    "context": "西班牙帝国从黄金时代走向衰落。",
+    "style": [
+      "戏仿与真实边界的模糊"
+    ],
+    "ideas": [
+      "理想主义者在现实世界中"
+    ],
+    "works": [
+      {
+        "title": "堂吉诃德",
+        "year": "1605",
+        "intro": "以读骑士小说读到疯掉的老乡绅和他的随从桑丘的冒险写出第一部现代小说。"
+      }
+    ],
+    "links": [
+      [
+        "rabelais",
+        "从巨人到疯骑士的喜剧传统"
+      ]
+    ],
+    "subjects": [
+      "literature"
     ]
   },
   {
@@ -8814,6 +8925,42 @@ const AUTHORS = [
       [
         "tolstoy",
         "现代人的精神赌约"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
+    "id": "goethe_w",
+    "subject": "literature",
+    "region": "world",
+    "year": 1808,
+    "dates": "1749—1832",
+    "name": "约翰·沃尔夫冈·冯·歌德",
+    "alias": "德国文学与思想的象征",
+    "era": "modern",
+    "period": "神圣罗马帝国",
+    "summary": "以一生的写作跨越诗歌戏剧小说科学与自传。",
+    "life": "生于法兰克福早年为狂飙突进运动代表。",
+    "context": "德意志启蒙法国大革命与拿破仑战争。",
+    "style": [
+      "从抒情到反思的自由跨越"
+    ],
+    "ideas": [
+      "全面发展的人格"
+    ],
+    "works": [
+      {
+        "title": "浮士德",
+        "year": "1808—1832",
+        "intro": "以学者与魔鬼的赌约为框架追问人类努力的意义与限界。"
+      }
+    ],
+    "links": [
+      [
+        "sushi",
+        "全面发展人格的跨文化对照"
       ]
     ],
     "subjects": [
