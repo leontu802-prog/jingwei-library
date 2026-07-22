@@ -1,0 +1,11 @@
+{
+  "name": "经纬书房 · 个人知识图书馆",
+  "short_name": "经纬书房",
+  "description": "跨越中国与全球的六科个人知识图书馆",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0d12",
+  "theme_color": "#0b0d12"
+}

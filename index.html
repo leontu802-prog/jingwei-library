@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0d12" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="description" content="跨越中国与全球的六科个人知识图书馆" />
+    <title>经纬书房 · 个人知识图书馆</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230b0d12'/%3E%3Cpath d='M32 7 57 32 32 57 7 32Z' fill='none' stroke='%23c8aa6a' stroke-width='2'/%3E%3Ctext x='32' y='38' fill='%23c8aa6a' font-size='17' text-anchor='middle'%3E经纬%3C/text%3E%3C/svg%3E" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">经纬</span>
+        <span><strong>经纬书房</strong><small>CHRONICLE LIBRARY</small></span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <button class="nav-link active" data-view="timeline">时间图谱</button>
+        <button class="nav-link" data-view="library">我的书架</button>
+        <button class="nav-link" data-view="method">阅读方法</button>
+      </nav>
+      <button class="saved-pill" id="savedButton" title="查看收藏">
+        <span>★</span><b id="savedCount">0</b>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">A PERSONAL ATLAS OF IDEAS</p>
+          <h1>一边是中国，<br /><em>一边是世界。</em></h1>
+          <p class="hero-lead">把文学、社会学、政治学、历史学、哲学与法学，放回同一条时间河流。不是背孤立知识点，而是看见观念如何在不同文明中同时发生、错位与回响。</p>
+          <div class="hero-actions">
+            <button class="primary-action" data-jump="timelineSection">进入六科时间图谱 <span>→</span></button>
+            <button class="ghost-action" data-view="library">打开个人书架</button>
+          </div>
+        </div>
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="globe-core"><span>中</span><i></i><span>世</span></div>
+          <span class="orbit-label l1">文学</span><span class="orbit-label l2">法学</span>
+          <span class="orbit-label l3">历史</span><span class="orbit-label l4">哲学</span>
+          <span class="orbit-label l5">政治</span><span class="orbit-label l6">社会</span>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="馆藏统计">
+        <div><strong id="authorStat">24</strong><span>位首批人物</span></div>
+        <div><strong id="workStat">35</strong><span>部代表作品</span></div>
+        <div><strong>6</strong><span>个人学科</span></div>
+        <div><strong>2500+</strong><span>年思想跨度</span></div>
+      </section>
+
+      <section class="view active" id="timelineView" data-view-panel="timeline">
+        <div class="section-shell" id="timelineSection">
+          <div class="section-heading">
+            <div><p class="eyebrow">ATLAS OF PEOPLE & IDEAS</p><h2>六科文明时间图谱</h2></div>
+            <p>沿时间看时代如何提出问题，人物如何回答，作品如何留下证据，后人又如何继承、反驳与改写。</p>
+          </div>
+
+          <div class="atlas-intro">
+            <div><small>READ THE MAP</small><strong>时代 → 人物 → 作品 → 思想关系</strong></div>
+            <p>点击任一人物，继续下沉查看生平、写作/论证风格、核心观念、代表作简介和脉络关系。</p>
+            <div class="map-mode-tabs" aria-label="图谱模式">
+              <button class="active" data-map-mode="atlas">时代图谱</button>
+              <button data-map-mode="compare">中外对照</button>
+            </div>
+          </div>
+
+          <div class="control-panel atlas-controls">
+            <label class="search-box"><span>⌕</span><input id="timelineSearch" type="search" placeholder="搜索人物、作品、文风、思想或时代…" /></label>
+            <div class="select-wrap"><select id="eraFilter" aria-label="时代筛选"><option value="all">全部时代</option><option value="ancient">古代 · 公元1000年前</option><option value="medieval">中古 · 1000—1500</option><option value="early-modern">近世 · 1500—1800</option><option value="modern">现代 · 1800—1945</option><option value="contemporary">当代 · 1945至今</option></select></div>
+            <div class="select-wrap"><select id="mapRegionFilter" aria-label="地区筛选"><option value="all">中国与全球</option><option value="china">只看中国</option><option value="world">只看全球</option></select></div>
+          </div>
+
+          <div class="subject-filters" id="subjectFilters"></div>
+
+          <div id="atlasPanel" data-map-panel="atlas">
+            <div class="idea-flow" id="ideaFlow"></div>
+            <div class="era-rail" id="eraRail"></div>
+            <div class="knowledge-map" id="knowledgeMap"></div>
+            <div class="empty-state hidden" id="mapEmpty"><span>∅</span><p>没有匹配的人物或作品</p><button id="clearMapFilters">清除筛选</button></div>
+          </div>
+
+          <div class="hidden" id="comparePanel" data-map-panel="compare">
+            <div class="compare-tools"><div><small>DUAL CHRONOLOGY</small><strong>同一问题的中外回响</strong></div><button class="compare-toggle" id="savedOnly">只看收藏</button></div>
+
+            <div class="timeline-key">
+              <div><span class="dot china"></span><b>中国脉络</b><small>朝代、人物、典籍与制度</small></div>
+              <div class="axis-caption">时间节点 / 相互参照</div>
+              <div><span class="dot world"></span><b>全球脉络</b><small>思想、作品、事件与制度</small></div>
+            </div>
+
+            <div class="timeline" id="timeline"></div>
+            <div class="empty-state hidden" id="timelineEmpty"><span>∅</span><p>没有匹配的时间节点</p><button id="clearTimelineFilters">清除筛选</button></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="view" id="libraryView" data-view-panel="library">
+        <div class="section-shell library-shell">
+          <div class="section-heading">
+            <div><p class="eyebrow">PERSONAL COLLECTION</p><h2>我的起步书架</h2></div>
+            <p>书目不是终点。给每本书标记“想读、在读、读完”，知识库才会长成你的样子。</p>
+          </div>
+          <div class="library-dashboard">
+            <div class="progress-ring" id="progressRing"><strong id="readPercent">0%</strong><span>阅读完成度</span></div>
+            <div class="dashboard-copy"><small>本地阅读档案</small><h3 id="progressHeadline">从第一本书开始</h3><p>进度与收藏保存在当前浏览器中，不需要登录。</p></div>
+            <div class="status-counts"><span><b id="wantCount">0</b> 想读</span><span><b id="readingCount">0</b> 在读</span><span><b id="doneCount">0</b> 读完</span></div>
+          </div>
+          <div class="control-panel book-controls">
+            <label class="search-box"><span>⌕</span><input id="bookSearch" type="search" placeholder="搜索书名、作者或阅读提示…" /></label>
+            <div class="select-wrap"><select id="regionFilter"><option value="all">中国与全球</option><option value="china">中国</option><option value="world">全球</option></select></div>
+            <div class="select-wrap"><select id="statusFilter"><option value="all">全部进度</option><option value="unread">未标记</option><option value="want">想读</option><option value="reading">在读</option><option value="done">读完</option></select></div>
+          </div>
+          <div class="subject-filters" id="bookSubjectFilters"></div>
+          <div class="book-grid" id="bookGrid"></div>
+          <div class="empty-state hidden" id="bookEmpty"><span>∅</span><p>没有匹配的书</p></div>
+        </div>
+      </section>
+
+      <section class="view" id="methodView" data-view-panel="method">
+        <div class="section-shell method-shell">
+          <div class="section-heading"><div><p class="eyebrow">READING METHOD</p><h2>如何使用这座图书馆</h2></div><p>不追求一次读完六科；围绕一个问题，在时间轴上横着读。</p></div>
+          <div class="method-grid">
+            <article><span>01</span><h3>先选一组节点</h3><p>比如“史家如何解释因果”。同时打开司马迁与希罗多德，不急着判断高下。</p></article>
+            <article><span>02</span><h3>再找学科交叉</h3><p>从历史切到政治学与法学，观察同一时代的国家、秩序和人的位置。</p></article>
+            <article><span>03</span><h3>每次只留一个问题</h3><p>在阅读提示的基础上，写下你自己的问题。问题比摘抄更能连接下一本书。</p></article>
+            <article><span>04</span><h3>定期回到时间轴</h3><p>读完一本书后重新看左右两列，把原来的“常识”改写成有出处的理解。</p></article>
+          </div>
+          <div class="path-card">
+            <div><small>推荐起步路径</small><h3>“人如何共同生活？”</h3></div>
+            <div class="path-line"><span>《论语》</span><i>→</i><span>《政治学》</span><i>→</i><span>《乡土中国》</span><i>→</i><span>《社会学的想象力》</span><i>→</i><span>《正义论》</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="drawer" id="detailDrawer" aria-hidden="true">
+      <button class="drawer-close" id="drawerClose" aria-label="关闭">×</button>
+      <div id="drawerContent"></div>
+    </aside>
+    <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+    <footer><span>经纬书房 · 私人知识系统 v0.2</span><span>以时间为经，以学科为纬</span></footer>
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
