@@ -1776,6 +1776,166 @@ const BOOKS = [
     "year": "约前300",
     "level": "进阶",
     "note": "十三卷，以五条公设推导出整座几何大厦。逻辑之美的极致。"
+  },
+  {
+    "id": "b73",
+    "subject": "literature",
+    "region": "world",
+    "title": "包法利夫人",
+    "author": "福楼拜",
+    "year": "1857",
+    "level": "核心",
+    "note": "注意叙述者如何既同情又讽刺爱玛。"
+  },
+  {
+    "id": "b74",
+    "subject": "literature",
+    "region": "world",
+    "title": "尤利西斯",
+    "author": "詹姆斯·乔伊斯",
+    "year": "1922",
+    "level": "进阶",
+    "note": "不必从头读到尾，随便翻到哪一页开始。"
+  },
+  {
+    "id": "b75",
+    "subject": "literature",
+    "region": "world",
+    "title": "等待戈多",
+    "author": "贝克特",
+    "year": "1953",
+    "level": "基础",
+    "note": "什么也没发生，但所有重要的事都在其中。"
+  },
+  {
+    "id": "b76",
+    "subject": "literature",
+    "region": "china",
+    "title": "儒林外史",
+    "author": "吴敬梓",
+    "year": "约1749",
+    "level": "进阶",
+    "note": "范进中举之后，看什么都是讽刺。"
+  },
+  {
+    "id": "b77",
+    "subject": "philosophy",
+    "region": "world",
+    "title": "开放社会及其敌人",
+    "author": "波普尔",
+    "year": "1945",
+    "level": "进阶",
+    "note": "先看对柏拉图的批判，再看对马克思的。"
+  },
+  {
+    "id": "b78",
+    "subject": "philosophy",
+    "region": "world",
+    "title": "瓦尔登湖",
+    "author": "梭罗",
+    "year": "1854",
+    "level": "基础",
+    "note": "找一片水边读，效果加倍。"
+  },
+  {
+    "id": "b79",
+    "subject": "literature",
+    "region": "china",
+    "title": "聊斋志异",
+    "author": "蒲松龄",
+    "year": "约1700",
+    "level": "进阶",
+    "note": "每天睡前读一篇。"
+  },
+  {
+    "id": "b80",
+    "subject": "philosophy",
+    "region": "world",
+    "title": "道德书简",
+    "author": "塞涅卡",
+    "year": "约65",
+    "level": "进阶",
+    "note": "两千年前的斯多亚智慧，至今仍然有效。"
+  },
+  {
+    "id": "b81",
+    "subject": "literature",
+    "region": "world",
+    "title": "悲惨世界",
+    "author": "雨果",
+    "year": "1862",
+    "level": "核心",
+    "note": "不要跳过滑铁卢那一章——它是理解全部叙事的关键。"
+  },
+  {
+    "id": "b82",
+    "subject": "literature",
+    "region": "world",
+    "title": "道林·格雷的画像",
+    "author": "王尔德",
+    "year": "1890",
+    "level": "核心",
+    "note": "青春永驻的代价是什么。"
+  },
+  {
+    "id": "b83",
+    "subject": "literature",
+    "region": "world",
+    "title": "玩偶之家",
+    "author": "易卜生",
+    "year": "1879",
+    "level": "基础",
+    "note": "听,那扇门摔上的声音。"
+  },
+  {
+    "id": "b84",
+    "subject": "literature",
+    "region": "world",
+    "title": "草叶集",
+    "author": "惠特曼",
+    "year": "1855",
+    "level": "进阶",
+    "note": "随便翻开一页，大声朗读。"
+  },
+  {
+    "id": "b85",
+    "subject": "literature",
+    "region": "china",
+    "title": "孙子兵法",
+    "author": "孙子",
+    "year": "约前500",
+    "level": "基础",
+    "note": "不只是兵书，更是关于如何思考竞争和决策的元理论。"
+  },
+  {
+    "id": "b86",
+    "subject": "literature",
+    "region": "china",
+    "title": "西厢记",
+    "author": "王实甫",
+    "year": "约1300",
+    "level": "进阶",
+    "note": "愿天下有情人都成了眷属。"
+  },
+  {
+    "id": "b87",
+    "subject": "politics",
+    "region": "world",
+    "title": "甘地自传",
+    "author": "甘地",
+    "year": "1925",
+    "level": "基础",
+    "note": "体验真理的历程，比任何理论都更有力量。"
+  },
+  {
+    "id": "b88",
+    "subject": "literature",
+    "region": "world",
+    "title": "鲁滨逊漂流记",
+    "author": "笛福",
+    "year": "1719",
+    "level": "基础",
+    "note": "一个人,一个岛,从头开始。现代个人主义的原型。"
   }
 ];
 
@@ -1829,6 +1989,45 @@ const ERA_STORIES = [
 
 const AUTHORS = [
   {
+    "id": "shangshu",
+    "subject": "history",
+    "region": "china",
+    "year": -1000,
+    "dates": "约前11世纪—前6世纪",
+    "name": "尚书",
+    "alias": "中国最早的史书",
+    "era": "ancient",
+    "period": "商周时期",
+    "summary": "中国现存最早的文献汇编，记录尧舜至春秋的诰、命、训、誓，是了解上古政治思想的根本文献。",
+    "life": "作者不详，经孔子整理，汉初伏生传授。今古文之争围绕此书展开千年。",
+    "context": "口传时代的结束与文字记录的开始，历史书写成为政权合法性的重要工具。",
+    "style": [
+      "简古的诰命文体",
+      "以政治演说承载历史"
+    ],
+    "ideas": [
+      "天命与德治",
+      "以史为鉴的源头"
+    ],
+    "works": [
+      {
+        "title": "尚书",
+        "year": "约前11—前6世纪",
+        "intro": "典谟训诰誓命六体，记录上古君臣的政务与思想。"
+      }
+    ],
+    "links": [
+      [
+        "confucius",
+        "经典整理的源头"
+      ]
+    ],
+    "subjects": [
+      "history",
+      "politics"
+    ]
+  },
+  {
     "id": "homer",
     "subject": "literature",
     "region": "world",
@@ -1874,6 +2073,44 @@ const AUTHORS = [
     ],
     "subjects": [
       "literature"
+    ]
+  },
+  {
+    "id": "thales",
+    "subject": "philosophy",
+    "region": "world",
+    "year": -585,
+    "dates": "约前624—约前546",
+    "name": "泰勒斯",
+    "alias": "西方哲学的第一人",
+    "era": "ancient",
+    "period": "古希腊·古风时代",
+    "summary": "以\"水是万物的本源\"开启西方哲学对自然本原的追问，被亚里士多德尊为哲学之父。",
+    "life": "米利都人，传说中成功预测日食。商人、工程师和政治家。",
+    "context": "从神话思维向理性思维的转折点。",
+    "style": [
+      "对自然本原的系统追问",
+      "以单一原则解释多样世界"
+    ],
+    "ideas": [
+      "水是万物的本源",
+      "自然的理性可知性"
+    ],
+    "works": [
+      {
+        "title": "泰勒斯残篇",
+        "year": "约前585",
+        "intro": "无完整著作传世，思想保存在亚里士多德等后人引述中。"
+      }
+    ],
+    "links": [
+      [
+        "laozi",
+        "东西方哲学源头的平行追问"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
     ]
   },
   {
@@ -2007,6 +2244,168 @@ const AUTHORS = [
       "philosophy",
       "politics",
       "history"
+    ]
+  },
+  {
+    "id": "sunzi",
+    "subject": "politics",
+    "region": "china",
+    "year": -500,
+    "dates": "约前6世纪",
+    "name": "孙子",
+    "alias": "兵法的奠基者",
+    "era": "ancient",
+    "period": "春秋",
+    "summary": "以《孙子兵法》十三篇将战争提升为哲学，其\"不战而屈人之兵\"的战略思想影响远超军事领域。",
+    "life": "齐国人，名武。为吴王阖闾练兵，以宫女演阵斩二宠妃的故事广为流传。",
+    "context": "春秋争霸需要系统的军事理论，战争不再是贵族的勇武表演。",
+    "style": [
+      "精炼的格言体",
+      "以辩证思维讨论战争"
+    ],
+    "ideas": [
+      "不战而屈人之兵",
+      "知己知彼",
+      "兵者诡道"
+    ],
+    "works": [
+      {
+        "title": "孙子兵法",
+        "year": "约前500",
+        "intro": "十三篇被翻译为数十种文字，是全球最广泛阅读的军事著作。"
+      }
+    ],
+    "links": [
+      [
+        "shangyang",
+        "兵家到法家"
+      ],
+      [
+        "machiavelli",
+        "东西方军事/政治思想的对话"
+      ]
+    ],
+    "subjects": [
+      "politics",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "heraclitus",
+    "subject": "philosophy",
+    "region": "world",
+    "year": -500,
+    "dates": "约前535—约前475",
+    "name": "赫拉克利特",
+    "alias": "晦涩的哲人",
+    "period": "古希腊",
+    "summary": "人不能两次踏入同一条河流。",
+    "life": "以弗所贵族，放弃王位隐居。著作仅存残篇。",
+    "context": "前苏格拉底哲学家在寻找万物的不变本原。",
+    "style": [
+      "晦涩的箴言体"
+    ],
+    "ideas": [
+      "万物流变",
+      "逻各斯"
+    ],
+    "works": [
+      {
+        "title": "赫拉克利特残篇",
+        "year": "约前500",
+        "intro": "百余条箴言探索宇宙法则。"
+      }
+    ],
+    "links": [
+      [
+        "laozi",
+        "东西方言说道的不同方式"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
+    ],
+    "era": "ancient"
+  },
+  {
+    "id": "parmenides",
+    "subject": "philosophy",
+    "region": "world",
+    "year": -470,
+    "dates": "约前515—约前450",
+    "name": "巴门尼德",
+    "alias": "存在论奠基者",
+    "period": "古希腊",
+    "summary": "存在者存在，不存在者不存在。",
+    "life": "意大利南部埃利亚人。以长诗论自然。",
+    "context": "前苏格拉底自然哲学的分水岭。",
+    "style": [
+      "以诗论哲"
+    ],
+    "ideas": [
+      "存在即思维"
+    ],
+    "works": [
+      {
+        "title": "论自然",
+        "year": "约前470",
+        "intro": "以长诗阐述存在的不变性。"
+      }
+    ],
+    "links": [
+      [
+        "heidegger",
+        "两千年后对存在的重新追问"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
+    ],
+    "era": "ancient"
+  },
+  {
+    "id": "aeschylus",
+    "subject": "literature",
+    "region": "world",
+    "year": -458,
+    "dates": "约前525—前456",
+    "name": "埃斯库罗斯",
+    "alias": "古希腊悲剧之父",
+    "era": "ancient",
+    "period": "古典希腊",
+    "summary": "在悲剧中引入第二个演员，使戏剧从独唱变为对话，以《俄瑞斯忒亚》三部曲探索正义从复仇到法治的演进。",
+    "life": "雅典人，参加马拉松和萨拉米斯战役。据说被老鹰误认为龟壳是天降之石，砸头而死。",
+    "context": "雅典民主制刚刚建立，用神话思考正义与制度的本质。",
+    "style": [
+      "庄严宏大的风格",
+      "神话作为政治哲学",
+      "三部曲的结构创新"
+    ],
+    "ideas": [
+      "从血亲复仇到城邦法庭",
+      "正义的进化"
+    ],
+    "works": [
+      {
+        "title": "俄瑞斯忒亚",
+        "year": "前458",
+        "intro": "三部曲以弑母案为线索，讨论从复仇到法治的正义转型。"
+      },
+      {
+        "title": "波斯人",
+        "year": "前472",
+        "intro": "以波斯视角写战争，是现存最早的希腊悲剧。"
+      }
+    ],
+    "links": [
+      [
+        "sophocles",
+        "悲剧形式的完善"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "politics"
     ]
   },
   {
@@ -2185,6 +2584,50 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "zuozhuan",
+    "subject": "history",
+    "region": "china",
+    "year": -400,
+    "dates": "约前4世纪成书",
+    "name": "左丘明",
+    "alias": "编年叙事的典范",
+    "era": "ancient",
+    "period": "春秋—战国",
+    "summary": "以《春秋》为纲，用丰富的对话、战争描写和人物刻画将编年史变成文学与史学交织的杰作。",
+    "life": "传统称左丘明为鲁国史官，双目失明后作《左传》。学术界对此身份多有争议。",
+    "context": "春秋末期至战国初期，各国史官系统发达，私人著述开始出现。",
+    "style": [
+      "以事解经的叙事艺术",
+      "战争描写的史诗气魄",
+      "对话中展现人物性格"
+    ],
+    "ideas": [
+      "经与史的统一",
+      "叙事中的道德判断"
+    ],
+    "works": [
+      {
+        "title": "左传",
+        "year": "约前4世纪",
+        "intro": "三十卷以丰富叙事充实《春秋》的简短记录。"
+      }
+    ],
+    "links": [
+      [
+        "simaqian",
+        "编年到纪传的史体演进"
+      ],
+      [
+        "herodotus",
+        "中西早期史学平行对照"
+      ]
+    ],
+    "subjects": [
+      "history",
+      "literature"
+    ]
+  },
+  {
     "id": "mozi",
     "subject": "philosophy",
     "region": "china",
@@ -2318,6 +2761,85 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "guoyu",
+    "subject": "history",
+    "region": "china",
+    "year": -350,
+    "dates": "约前4世纪成书",
+    "name": "国语",
+    "alias": "列国记言史的代表",
+    "era": "ancient",
+    "period": "战国",
+    "summary": "以记言为主，记录周至春秋八国的君臣言论，是了解先秦政治思想分化的珍贵文本。",
+    "life": "传统称左丘明所作，实际可能由不同史官编成。",
+    "context": "战国百家争鸣前夕，各国形成了不同的政治话语传统。",
+    "style": [
+      "记言为主的史体",
+      "列国分述的比较视野"
+    ],
+    "ideas": [
+      "语言中的政治智慧"
+    ],
+    "works": [
+      {
+        "title": "国语",
+        "year": "约前4世纪",
+        "intro": "二十一卷分记周鲁齐晋郑楚吴越八国言论。"
+      }
+    ],
+    "links": [
+      [
+        "simaqian",
+        "史体多元化的探索"
+      ]
+    ],
+    "subjects": [
+      "history"
+    ]
+  },
+  {
+    "id": "diogenes",
+    "subject": "philosophy",
+    "region": "world",
+    "year": -350,
+    "dates": "约前412—前323",
+    "name": "第欧根尼",
+    "alias": "犬儒主义的化身",
+    "era": "ancient",
+    "period": "古典希腊",
+    "summary": "住在木桶里，对亚历山大大帝说\"请别挡住我的阳光\"，以最极端的生活方式实践\"反文明\"的哲学。",
+    "life": "黑海边的锡诺普人，因伪造货币被流放雅典。成为安提斯泰尼的学生后，将犬儒主义推到极致。",
+    "context": "城邦政治衰落，一部分哲人选择以彻底脱离社会的方式表达抗议。",
+    "style": [
+      "以身体实践哲学",
+      "尖刻的幽默与行动"
+    ],
+    "ideas": [
+      "自然高于习俗",
+      "自足即自由"
+    ],
+    "works": [
+      {
+        "title": "第欧根尼轶事",
+        "year": "约前4世纪",
+        "intro": "无著作传世，言行保存在拉尔修《名哲言行录》中。"
+      }
+    ],
+    "links": [
+      [
+        "socrates",
+        "哲学作为一种生活方式"
+      ],
+      [
+        "zhuangzi",
+        "犬儒与道家的跨文明对照"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
+    ]
+  },
+  {
     "id": "aristotle",
     "subject": "philosophy",
     "region": "world",
@@ -2410,6 +2932,49 @@ const AUTHORS = [
     "subjects": [
       "philosophy",
       "politics"
+    ]
+  },
+  {
+    "id": "epicurus",
+    "subject": "philosophy",
+    "region": "world",
+    "year": -306,
+    "dates": "前341—前270",
+    "name": "伊壁鸠鲁",
+    "alias": "花园中的哲人",
+    "era": "ancient",
+    "period": "希腊化时期",
+    "summary": "以原子论和快乐主义将哲学定义为追求心灵宁静的艺术，\"死亡与我们无关\"是其最著名的处方。",
+    "life": "雅典人，在自家花园中办学。打破了哲学的高墙，让女性和奴隶也能参与哲学讨论。",
+    "context": "亚历山大帝国崩溃后，人无法控制政治，转向控制内心。",
+    "style": [
+      "以简洁教条代替复杂推理",
+      "书信体的哲学传播"
+    ],
+    "ideas": [
+      "快乐是身体无痛苦和灵魂无纷扰",
+      "死亡与我们无关"
+    ],
+    "works": [
+      {
+        "title": "致美诺西斯的信",
+        "year": "约前306",
+        "intro": "总结伊壁鸠鲁伦理学的核心教义。"
+      },
+      {
+        "title": "主要学说",
+        "year": "约前300",
+        "intro": "四十条格言是其思想的最简版本。"
+      }
+    ],
+    "links": [
+      [
+        "lucretius",
+        "伊壁鸠鲁主义的罗马传承"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
     ]
   },
   {
@@ -2596,6 +3161,48 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "gongsunlong",
+    "subject": "philosophy",
+    "region": "china",
+    "year": -280,
+    "dates": "约前325—前250",
+    "name": "公孙龙",
+    "alias": "名家的代表",
+    "era": "ancient",
+    "period": "战国",
+    "summary": "以\"白马非马\"等命题将语言分析推到极致挑战，追问名与实的关系。",
+    "life": "赵国人，曾为平原君门客。以\"白马非马\"的论证震动战国。",
+    "context": "百家争鸣中名家独树一帜，对语言和逻辑本身进行哲学反思。",
+    "style": [
+      "悖论式的逻辑论证",
+      "将语言本身作为哲学对象"
+    ],
+    "ideas": [
+      "白马非马",
+      "坚白论"
+    ],
+    "works": [
+      {
+        "title": "公孙龙子",
+        "year": "约前280",
+        "intro": "现存六篇讨论名实关系和逻辑悖论。"
+      }
+    ],
+    "links": [
+      [
+        "mozi",
+        "墨家逻辑的延续与争论"
+      ],
+      [
+        "wittgenstein",
+        "语言的边界"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
+    ]
+  },
+  {
     "id": "hanfei",
     "subject": "politics",
     "region": "china",
@@ -2638,6 +3245,49 @@ const AUTHORS = [
       "politics",
       "philosophy",
       "law"
+    ]
+  },
+  {
+    "id": "archimedes",
+    "subject": "history",
+    "region": "world",
+    "year": -220,
+    "dates": "约前287—前212",
+    "name": "阿基米德",
+    "alias": "古希腊最伟大的科学家",
+    "era": "ancient",
+    "period": "希腊化时期",
+    "summary": "以浮力定律和杠杆原理将数学应用于物理世界，其\"给我一个支点\"是人类科学自信的最早宣言。",
+    "life": "西西里岛叙拉古人。罗马攻陷叙拉古时正在沙盘上演算几何，被士兵所杀。",
+    "context": "亚历山大里亚学派将希腊科学从雅典的纯思辨推向应用。",
+    "style": [
+      "以数学应用于物理",
+      "从公理推导实际结论"
+    ],
+    "ideas": [
+      "浮力定律",
+      "杠杆原理"
+    ],
+    "works": [
+      {
+        "title": "论浮体",
+        "year": "约前250",
+        "intro": "以数学证明浮力定律。"
+      },
+      {
+        "title": "方法",
+        "year": "约前240",
+        "intro": "讨论数学发现的方法论。"
+      }
+    ],
+    "links": [
+      [
+        "euclid",
+        "几何学的实际应用"
+      ]
+    ],
+    "subjects": [
+      "history"
     ]
   },
   {
@@ -2819,6 +3469,98 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "virgil",
+    "subject": "literature",
+    "region": "world",
+    "year": -19,
+    "dates": "前70—前19",
+    "name": "维吉尔",
+    "alias": "罗马民族的史诗诗人",
+    "era": "ancient",
+    "period": "罗马帝国初期",
+    "summary": "以《埃涅阿斯纪》为罗马写出自己的《荷马史诗》，将帝国使命与个人命运编织为一部关于牺牲与建国的英雄传奇。",
+    "life": "北意大利曼图亚人，受奥古斯都庇护。临死前要求烧毁未完成的《埃涅阿斯纪》，被奥古斯都阻止。",
+    "context": "奥古斯都建立元首制后，罗马需要一部能与希腊抗衡的民族史诗。",
+    "style": [
+      "继承荷马的史诗传统",
+      "以柔和悲悯替代荷马的刚烈",
+      "将历史预言融入叙事"
+    ],
+    "ideas": [
+      "帝国使命与个人牺牲",
+      "虔敬（pietas）作为罗马美德"
+    ],
+    "works": [
+      {
+        "title": "埃涅阿斯纪",
+        "year": "前19",
+        "intro": "十二卷叙述特洛伊英雄埃涅阿斯漂泊至意大利建国的历程。"
+      },
+      {
+        "title": "牧歌",
+        "year": "前37",
+        "intro": "十首以牧羊人对话写田园理想与政治现实。"
+      }
+    ],
+    "links": [
+      [
+        "homer",
+        "从希腊到罗马的史诗传承"
+      ],
+      [
+        "dante",
+        "维吉尔作为但丁地狱之旅的向导"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
+    "id": "ovid",
+    "subject": "literature",
+    "region": "world",
+    "year": 8,
+    "dates": "前43—17",
+    "name": "奥维德",
+    "alias": "变形记的讲述者",
+    "era": "ancient",
+    "period": "罗马帝国初期",
+    "summary": "以《变形记》将希腊罗马神话编织为一部长篇叙事诗，以\"变形\"为线索探索欲望、权力与身份的边界。",
+    "life": "罗马骑士家庭出身，因《爱的艺术》和某个不明原因触怒奥古斯都，被流放至黑海边的托米斯，客死异乡。",
+    "context": "奥古斯都的道德重建运动与诗人的自由精神紧张冲突。",
+    "style": [
+      "轻快流畅的叙事节奏",
+      "以变形为统一主题",
+      "机智与优雅并存"
+    ],
+    "ideas": [
+      "一切都在变化，没有什么是永恒的",
+      "爱与权力"
+    ],
+    "works": [
+      {
+        "title": "变形记",
+        "year": "8",
+        "intro": "十五卷以连续变形故事重述希腊罗马神话。"
+      },
+      {
+        "title": "爱的艺术",
+        "year": "约1",
+        "intro": "以轻佻口吻教授恋爱技巧，可能是流放的原因之一。"
+      }
+    ],
+    "links": [
+      [
+        "homer",
+        "神话叙事传统的延续"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
     "id": "livy",
     "subject": "history",
     "region": "world",
@@ -2862,6 +3604,54 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "seneca",
+    "subject": "philosophy",
+    "region": "world",
+    "year": 55,
+    "dates": "约前4—65",
+    "name": "塞涅卡",
+    "alias": "斯多亚的帝王师",
+    "era": "ancient",
+    "period": "罗马帝国",
+    "summary": "以书信和悲剧教导尼禄、影响后世，在权力中心践行\"按自然生活\"的斯多亚哲学，终被赐死。",
+    "life": "西班牙科尔多瓦人，曾任尼禄的老师和顾问。卷入反尼禄阴谋，被令自尽，割腕后从容告别家人。",
+    "context": "罗马帝制下的权力游戏中，斯多亚哲学既是被统治者也是统治者的心灵武器。",
+    "style": [
+      "书信体的哲学思考",
+      "以死亡为日常练习"
+    ],
+    "ideas": [
+      "按自然生活",
+      "每一天都是完整的一生"
+    ],
+    "works": [
+      {
+        "title": "道德书简",
+        "year": "约63—65",
+        "intro": "一百二十四封写给友人的信讨论人生根本问题。"
+      },
+      {
+        "title": "论生命之短暂",
+        "year": "约49",
+        "intro": "论证生命并不短暂，只是我们浪费了它。"
+      }
+    ],
+    "links": [
+      [
+        "marcusaurelius",
+        "斯多亚的罗马化"
+      ],
+      [
+        "boethius",
+        "临死的哲学书写"
+      ]
+    ],
+    "subjects": [
+      "philosophy",
+      "politics"
+    ]
+  },
+  {
     "id": "wangchong",
     "subject": "philosophy",
     "region": "china",
@@ -2899,6 +3689,43 @@ const AUTHORS = [
       "philosophy",
       "history"
     ]
+  },
+  {
+    "id": "xushen",
+    "subject": "history",
+    "region": "china",
+    "year": 100,
+    "dates": "约58—约147",
+    "name": "许慎",
+    "alias": "说文解字的作者",
+    "period": "东汉",
+    "summary": "以《说文解字》系统分析汉字结构。",
+    "life": "汝南召陵人，师从贾逵。穷二十余年著成《说文》。",
+    "context": "经学今古文之争使文字本义成为关键。",
+    "style": [
+      "系统化的部首分类"
+    ],
+    "ideas": [
+      "文字是经义的入口"
+    ],
+    "works": [
+      {
+        "title": "说文解字",
+        "year": "约100",
+        "intro": "收录9353字，540部首。"
+      }
+    ],
+    "links": [
+      [
+        "zhenxuan",
+        "文字学与经学互证"
+      ]
+    ],
+    "subjects": [
+      "history",
+      "philosophy"
+    ],
+    "era": "ancient"
   },
   {
     "id": "tacitus",
@@ -3081,6 +3908,54 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "caocao",
+    "subject": "literature",
+    "region": "china",
+    "year": 210,
+    "dates": "155—220",
+    "name": "曹操",
+    "alias": "建安文学的开创者",
+    "era": "ancient",
+    "period": "东汉—三国",
+    "summary": "以\"对酒当歌，人生几何\"的慷慨和\"白骨露于野，千里无鸡鸣\"的沉痛，将乱世悲慨提升为文学风格。",
+    "life": "沛国谯人，挟天子以令诸侯，统一北方。其诗文被钟嵘评为\"古直，甚有悲凉之句\"。",
+    "context": "汉末大乱，文学从宫廷颂赞转向个人抒情，质朴刚健成为新的审美理想。",
+    "style": [
+      "慷慨悲凉",
+      "质朴无华而气魄雄大"
+    ],
+    "ideas": [
+      "以四言诗复活古诗传统",
+      "英雄的孤独与悲慨"
+    ],
+    "works": [
+      {
+        "title": "短歌行",
+        "year": "约208",
+        "intro": "对酒当歌人生几何，以宴会起兴而归结到求贤若渴的政治抱负。"
+      },
+      {
+        "title": "蒿里行",
+        "year": "约195",
+        "intro": "白骨露于野千里无鸡鸣。"
+      }
+    ],
+    "links": [
+      [
+        "caozhi",
+        "建安文学父子三人"
+      ],
+      [
+        "quyuan",
+        "乱世中的诗人声音"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "politics"
+    ]
+  },
+  {
     "id": "wangbi",
     "subject": "philosophy",
     "region": "china",
@@ -3127,6 +4002,138 @@ const AUTHORS = [
     ],
     "subjects": [
       "philosophy"
+    ]
+  },
+  {
+    "id": "guopu",
+    "subject": "philosophy",
+    "region": "china",
+    "year": 254,
+    "dates": "约250—约312",
+    "name": "郭象",
+    "alias": "玄学庄学注的集大成者",
+    "era": "ancient",
+    "period": "西晋",
+    "summary": "以《庄子注》将庄子思想重新解释为\"独化论\"，为名教与自然的统一提供哲学基础。",
+    "life": "河南人，以西晋名士而任至黄门侍郎。《庄子注》可能是在向秀注基础上完成的。",
+    "context": "西晋短暂统一后，玄学需要处理\"如何在体制内保持精神自由\"的问题。",
+    "style": [
+      "以注为著的哲学创新",
+      "融通名教与自然的思辨"
+    ],
+    "ideas": [
+      "独化论",
+      "名教即自然"
+    ],
+    "works": [
+      {
+        "title": "庄子注",
+        "year": "约290",
+        "intro": "系统注释庄子三十三篇，是后世读庄的基本路径。"
+      }
+    ],
+    "links": [
+      [
+        "wangbi",
+        "玄学的完成"
+      ],
+      [
+        "zhuangzi",
+        "庄子思想的体系化"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
+    ]
+  },
+  {
+    "id": "jiakang",
+    "subject": "literature",
+    "region": "china",
+    "year": 260,
+    "dates": "223—262",
+    "name": "嵇康",
+    "alias": "竹林七贤的精神领袖",
+    "era": "ancient",
+    "period": "三国·魏",
+    "summary": "以《与山巨源绝交书》的傲骨和《广陵散》的绝响，将魏晋名士的反抗精神推向极致。",
+    "life": "谯郡铚人，娶曹操曾孙女。隐居竹林以锻铁为乐，因不肯依附司马氏被杀。临刑索琴弹《广陵散》。",
+    "context": "魏晋易代之际，士人在政治高压下以隐逸和不合作作为精神抵抗。",
+    "style": [
+      "傲岸不屈的人格书写",
+      "以散文论辩哲学"
+    ],
+    "ideas": [
+      "越名教而任自然",
+      "养生与自由"
+    ],
+    "works": [
+      {
+        "title": "与山巨源绝交书",
+        "year": "约261",
+        "intro": "以七不堪写尽对世俗权力的蔑视。"
+      },
+      {
+        "title": "声无哀乐论",
+        "year": "约260",
+        "intro": "论证音乐的美是客观的，与人的情感无关。"
+      }
+    ],
+    "links": [
+      [
+        "zhuangzi",
+        "庄学在魏晋的践行"
+      ],
+      [
+        "taoyuanming",
+        "从嵇康到陶渊明的隐逸演变"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "ruanji",
+    "subject": "literature",
+    "region": "china",
+    "year": 262,
+    "dates": "210—263",
+    "name": "阮籍",
+    "alias": "穷途之哭的诗人",
+    "era": "ancient",
+    "period": "三国·魏",
+    "summary": "以八十二首《咏怀诗》将政治恐怖中的恐惧、孤独与愤懑化为隐晦而深沉的抒情。",
+    "life": "陈留人，竹林七贤之一。司马氏当政时被迫出仕，常驾车独行至无路处痛哭而返。",
+    "context": "司马氏以名教为工具排除异己，士人在\"言与不言\"之间走钢丝。",
+    "style": [
+      "隐晦深微的象征手法",
+      "以自然意象写政治恐惧"
+    ],
+    "ideas": [
+      "忧生之嗟",
+      "比兴与寄托的极致"
+    ],
+    "works": [
+      {
+        "title": "咏怀诗",
+        "year": "约260",
+        "intro": "八十二首五言诗以晦涩意象写尽乱世中的孤独与恐惧。"
+      }
+    ],
+    "links": [
+      [
+        "quyuan",
+        "政治抒情诗的继承与发展"
+      ],
+      [
+        "jiakang",
+        "竹林精神的另一面"
+      ]
+    ],
+    "subjects": [
+      "literature"
     ]
   },
   {
@@ -3313,6 +4320,42 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "baoxhengzhao",
+    "subject": "literature",
+    "region": "china",
+    "year": 440,
+    "dates": "约414—466",
+    "name": "鲍照",
+    "alias": "七言诗先驱",
+    "period": "南朝·宋",
+    "summary": "以《拟行路难》将七言诗提升为文人创作。",
+    "life": "东海人，出身寒微，死于兵乱。",
+    "context": "门阀制度下寒士的出路极为有限。",
+    "style": [
+      "豪放悲凉"
+    ],
+    "ideas": [
+      "寒士的悲歌"
+    ],
+    "works": [
+      {
+        "title": "拟行路难",
+        "year": "约440",
+        "intro": "十八首写尽人生失意。"
+      }
+    ],
+    "links": [
+      [
+        "libai",
+        "对李白的直接影响"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ],
+    "era": "ancient"
+  },
+  {
     "id": "liuxie",
     "subject": "literature",
     "region": "china",
@@ -3393,6 +4436,42 @@ const AUTHORS = [
       "philosophy",
       "literature"
     ]
+  },
+  {
+    "id": "yuxin",
+    "subject": "literature",
+    "region": "china",
+    "year": 570,
+    "dates": "513—581",
+    "name": "庾信",
+    "alias": "由南入北的文学高峰",
+    "period": "北周",
+    "summary": "以骈赋最高成就融合南北文风。",
+    "life": "南阳新野人，出使北朝被扣留。暮年思乡。",
+    "context": "南北朝文化融合。",
+    "style": [
+      "骈散兼行"
+    ],
+    "ideas": [
+      "暮年诗赋动江关"
+    ],
+    "works": [
+      {
+        "title": "哀江南赋",
+        "year": "约578",
+        "intro": "自传体骈赋写家国之痛。"
+      }
+    ],
+    "links": [
+      [
+        "dufu",
+        "对杜甫的深远影响"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ],
+    "era": "medieval"
   },
   {
     "id": "xuanzang",
@@ -3667,6 +4746,53 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "yanzhenqing",
+    "subject": "literature",
+    "region": "china",
+    "year": 758,
+    "dates": "709—785",
+    "name": "颜真卿",
+    "alias": "唐代书法的丰碑",
+    "era": "medieval",
+    "period": "唐·中唐",
+    "summary": "以《祭侄文稿》将个人悲愤与国家灾难融入笔墨，使书法成为情感与人格的直接表达。",
+    "life": "京兆万年人，平原太守任上抗击安禄山叛乱，侄儿颜季明被害。晚年被叛将李希烈扣押并杀害。",
+    "context": "安史之乱不仅改变了唐朝的政治，也深刻改变了艺术的表达方式。",
+    "style": [
+      "以情感驾驭笔墨",
+      "将书法从法度推向人格"
+    ],
+    "ideas": [
+      "书法作为人格的外化",
+      "悲愤出杰作"
+    ],
+    "works": [
+      {
+        "title": "祭侄文稿",
+        "year": "758",
+        "intro": "被尊为天下第二行书，在极度悲痛中书写的草稿。"
+      },
+      {
+        "title": "颜勤礼碑",
+        "year": "779",
+        "intro": "晚年楷书的代表作，法度森严而气魄雄浑。"
+      }
+    ],
+    "links": [
+      [
+        "wangwei",
+        "诗书画的文人传统"
+      ],
+      [
+        "sushi",
+        "从颜真卿到苏轼的书法演进"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
     "id": "hanyu",
     "subject": "literature",
     "region": "china",
@@ -3703,6 +4829,54 @@ const AUTHORS = [
       [
         "liuxie",
         "从理论探索到创作实践"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "liuzongyuan",
+    "subject": "literature",
+    "region": "china",
+    "year": 810,
+    "dates": "773—819",
+    "name": "柳宗元",
+    "alias": "山水散文的革新者",
+    "era": "medieval",
+    "period": "唐·中唐",
+    "summary": "与韩愈共同领导古文运动，以《永州八记》开创山水散文的全新境界，在自然中寄寓贬谪者的深沉思考。",
+    "life": "河东人，参与永贞革新失败后被贬永州十年，再贬柳州。客死柳州时年仅四十七。",
+    "context": "中唐政治斗争激烈，贬谪文学成为重要的个人表达方式。",
+    "style": [
+      "精工凝练的山水散文",
+      "以景寓情的含蓄表达"
+    ],
+    "ideas": [
+      "文以明道",
+      "山水作为精神寄托"
+    ],
+    "works": [
+      {
+        "title": "永州八记",
+        "year": "约809",
+        "intro": "以八篇游记开创中国山水散文的典范。"
+      },
+      {
+        "title": "捕蛇者说",
+        "year": "约810",
+        "intro": "以捕蛇者的遭遇批判苛政猛于虎。"
+      }
+    ],
+    "links": [
+      [
+        "hanyu",
+        "古文运动的双星"
+      ],
+      [
+        "xielingyun",
+        "山水文学从诗到文的扩展"
       ]
     ],
     "subjects": [
@@ -3752,6 +4926,50 @@ const AUTHORS = [
     ],
     "subjects": [
       "literature"
+    ]
+  },
+  {
+    "id": "dumu",
+    "subject": "literature",
+    "region": "china",
+    "year": 840,
+    "dates": "803—852",
+    "name": "杜牧",
+    "alias": "晚唐咏史的绝唱",
+    "era": "medieval",
+    "period": "唐·晚唐",
+    "summary": "以七绝咏史独步千古，将历史的苍凉与个人的感伤熔铸为凝练而深沉的画面。",
+    "life": "京兆万年人，宰相杜佑之孙。二十六岁进士，历任幕僚和地方官，以济世之才自许而不得志。",
+    "context": "晚唐藩镇割据、宦官专权，士人普遍感到治世不再的悲观。",
+    "style": [
+      "以七绝写咏史的凝练功力",
+      "历史意象与个人感怀的交融"
+    ],
+    "ideas": [
+      "隔代的历史回声",
+      "豪华落尽见真淳"
+    ],
+    "works": [
+      {
+        "title": "阿房宫赋",
+        "year": "约825",
+        "intro": "以秦之兴亡警示当代，是骈赋的绝唱。"
+      },
+      {
+        "title": "泊秦淮",
+        "year": "约840",
+        "intro": "商女不知亡国恨，隔江犹唱后庭花。"
+      }
+    ],
+    "links": [
+      [
+        "liushangyin",
+        "晚唐文学的双峰"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "history"
     ]
   },
   {
@@ -3984,6 +5202,55 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "wanganshi",
+    "subject": "politics",
+    "region": "china",
+    "year": 1070,
+    "dates": "1021—1086",
+    "name": "王安石",
+    "alias": "变法的悲剧英雄",
+    "era": "medieval",
+    "period": "北宋",
+    "summary": "以青苗、免役等新法力图富国强兵，其失败成为中国古代改革运动的经典案例。",
+    "life": "临川人，庆历进士。神宗时两度拜相推行变法，因保守派反对和效果不佳被罢。其散文被列为唐宋八大家。",
+    "context": "宋积贫积弱，冗官冗兵耗费巨资，改革呼声与保守势力激烈碰撞。",
+    "style": [
+      "以经学论证改革",
+      "散文的政论风格"
+    ],
+    "ideas": [
+      "天命不足畏，祖宗不足法",
+      "理财乃是治国之本"
+    ],
+    "works": [
+      {
+        "title": "上仁宗皇帝言事书",
+        "year": "1058",
+        "intro": "著名的万言书系统论述变法纲领。"
+      },
+      {
+        "title": "临川集",
+        "year": "约1080",
+        "intro": "诗文合集，是唐宋八大家的重要代表。"
+      }
+    ],
+    "links": [
+      [
+        "shangyang",
+        "变法者的跨时代对照"
+      ],
+      [
+        "sushi",
+        "政敌与文友"
+      ]
+    ],
+    "subjects": [
+      "politics",
+      "literature",
+      "philosophy"
+    ]
+  },
+  {
     "id": "sushi",
     "subject": "literature",
     "region": "china",
@@ -4075,6 +5342,53 @@ const AUTHORS = [
     "subjects": [
       "history",
       "politics"
+    ]
+  },
+  {
+    "id": "chengyi",
+    "subject": "philosophy",
+    "region": "china",
+    "year": 1100,
+    "dates": "1033—1107",
+    "name": "程颐",
+    "alias": "理学的完成者",
+    "era": "medieval",
+    "period": "北宋",
+    "summary": "与兄程颢并称二程，以\"性即理\"体系化理学，提出\"涵养须用敬，进学则在致知\"的为学纲领。",
+    "life": "洛阳人，历任教职。因反对王安石新法被贬，晚年党争中被列为元祐党人。",
+    "context": "二程将周敦颐和张载的思想进一步体系化，理学作为知识体系走向成熟。",
+    "style": [
+      "精密的理学体系建构",
+      "以敬济学的方法论"
+    ],
+    "ideas": [
+      "性即理",
+      "涵养用敬、进学致知"
+    ],
+    "works": [
+      {
+        "title": "程氏易传",
+        "year": "约1100",
+        "intro": "以义理解易，是理学易学的代表作。"
+      },
+      {
+        "title": "二程遗书",
+        "year": "约12世纪",
+        "intro": "与程颢的语录合集。"
+      }
+    ],
+    "links": [
+      [
+        "zhangzai",
+        "理学从气本论到理本论"
+      ],
+      [
+        "zhuxi",
+        "二程到朱熹的传承"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
     ]
   },
   {
@@ -4396,6 +5710,43 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "wentiantianxiang",
+    "subject": "politics",
+    "region": "china",
+    "year": 1278,
+    "dates": "1236—1283",
+    "name": "文天祥",
+    "alias": "宋末殉国者",
+    "period": "南宋末",
+    "summary": "人生自古谁无死，留取丹心照汗青。",
+    "life": "吉州庐陵人，状元。兵败被俘不降就义。",
+    "context": "南宋灭亡需要新的精神符号。",
+    "style": [
+      "以死明志"
+    ],
+    "ideas": [
+      "正气"
+    ],
+    "works": [
+      {
+        "title": "正气歌",
+        "year": "1281",
+        "intro": "在元大都狱中写成。"
+      }
+    ],
+    "links": [
+      [
+        "quyuan",
+        "殉国者的精神谱系"
+      ]
+    ],
+    "subjects": [
+      "politics",
+      "literature"
+    ],
+    "era": "medieval"
+  },
+  {
     "id": "guanhanqing",
     "subject": "literature",
     "region": "china",
@@ -4476,6 +5827,47 @@ const AUTHORS = [
       [
         "guanhanqing",
         "元曲的双星"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
+    "id": "wangshifu",
+    "subject": "literature",
+    "region": "china",
+    "year": 1300,
+    "dates": "约1250—约1307",
+    "name": "王实甫",
+    "alias": "西厢记的作者",
+    "era": "medieval",
+    "period": "元",
+    "summary": "以《西厢记》将青年男女的自由恋爱写成中国戏曲最华美的爱情诗篇。",
+    "life": "大都人，生平不详。与关汉卿、马致远、白朴合称元曲四大家。",
+    "context": "元代文人失去科举出路，将全部才华投入戏曲创作。",
+    "style": [
+      "华美典雅的曲词",
+      "以爱情写个人自由"
+    ],
+    "ideas": [
+      "愿天下有情人终成眷属"
+    ],
+    "works": [
+      {
+        "title": "西厢记",
+        "year": "约1300",
+        "intro": "五本二十一折的杂剧，写张生与崔莺莺的爱情故事。"
+      }
+    ],
+    "links": [
+      [
+        "guanhanqing",
+        "元杂剧的双璧"
+      ],
+      [
+        "tangxianzu",
+        "从西厢到牡丹亭的传承"
       ]
     ],
     "subjects": [
@@ -4660,6 +6052,42 @@ const AUTHORS = [
       "philosophy",
       "politics"
     ]
+  },
+  {
+    "id": "xuwei",
+    "subject": "literature",
+    "region": "china",
+    "year": 1580,
+    "dates": "1521—1593",
+    "name": "徐渭",
+    "alias": "明代艺术狂人",
+    "period": "明",
+    "summary": "以泼墨大写意和《四声猿》将艺术推向狂野。",
+    "life": "浙江山阴人，八次乡试不中。后发狂自杀多次未遂。",
+    "context": "晚明个性解放。",
+    "style": [
+      "泼墨大写意"
+    ],
+    "ideas": [
+      "艺术作为生命的爆发"
+    ],
+    "works": [
+      {
+        "title": "四声猿",
+        "year": "约1580",
+        "intro": "四部短剧写愤世嫉俗。"
+      }
+    ],
+    "links": [
+      [
+        "tangxianzu",
+        "晚明艺术两种极端"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ],
+    "era": "early-modern"
   },
   {
     "id": "tangxianzu",
@@ -5076,6 +6504,52 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "milton",
+    "subject": "literature",
+    "region": "world",
+    "year": 1667,
+    "dates": "1608—1674",
+    "name": "约翰·弥尔顿",
+    "alias": "革命的盲诗人",
+    "era": "early-modern",
+    "period": "英格兰·共和国—王政复辟",
+    "summary": "在失明和政治幻灭中以《失乐园》书写人类堕落的最雄伟史诗，为上帝之道辩护却让撒旦成为最迷人的角色。",
+    "life": "伦敦人，清教徒革命期间任克伦威尔的外语秘书。王政复辟后被捕，失明后在贫困中完成巨著。",
+    "context": "革命失败后，如何在信仰中找到新的语言来解释失败。",
+    "style": [
+      "无韵史诗的宏大结构",
+      "撒旦作为悲剧英雄",
+      "拉丁式的庄严与英语的活力"
+    ],
+    "ideas": [
+      "自由意志的代价",
+      "失明中看见更多"
+    ],
+    "works": [
+      {
+        "title": "失乐园",
+        "year": "1667",
+        "intro": "十二卷以人类堕落的叙事重写整个宇宙秩序。"
+      },
+      {
+        "title": "论出版自由",
+        "year": "1644",
+        "intro": "以书是活着的理性为出版自由的经典辩护。"
+      }
+    ],
+    "links": [
+      [
+        "homer",
+        "从荷马到弥尔顿的史诗传承"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "politics",
+      "philosophy"
+    ]
+  },
+  {
     "id": "guyanwu",
     "subject": "politics",
     "region": "china",
@@ -5222,6 +6696,48 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "moliere",
+    "subject": "literature",
+    "region": "world",
+    "year": 1670,
+    "dates": "1622—1673",
+    "name": "莫里哀",
+    "alias": "法国喜剧之父",
+    "era": "early-modern",
+    "period": "法国·路易十四时期",
+    "summary": "以《伪君子》《悭吝人》等高超的喜剧将人性的虚伪与贪婪搬上舞台，讽刺之锋利至今令人刺痛。",
+    "life": "巴黎人，放弃世袭的宫廷职位从事演艺。以喜剧演员之死在舞台上咳血演完最后一场。",
+    "context": "太阳王路易十四的时代，宫廷文化繁荣，道德虚伪成为喜剧最肥沃的土壤。",
+    "style": [
+      "性格喜剧的典范",
+      "以笑声解剖人性"
+    ],
+    "ideas": [
+      "伪君子的永恒面目"
+    ],
+    "works": [
+      {
+        "title": "伪君子",
+        "year": "1664",
+        "intro": "以宗教伪善者答尔丢夫写出人性中最危险的真诚伪装。"
+      },
+      {
+        "title": "悭吝人",
+        "year": "1668",
+        "intro": "以吝啬鬼阿巴贡写出金钱对人性的扭曲。"
+      }
+    ],
+    "links": [
+      [
+        "shakespeare",
+        "悲剧与喜剧的对照"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
     "id": "nalanxingde",
     "subject": "literature",
     "region": "china",
@@ -5253,6 +6769,45 @@ const AUTHORS = [
       [
         "liqingzhao",
         "婉约词的隔代回响"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
+    "id": "puxongling",
+    "subject": "literature",
+    "region": "china",
+    "year": 1680,
+    "dates": "1640—1715",
+    "name": "蒲松龄",
+    "alias": "聊斋世界的创造者",
+    "era": "early-modern",
+    "period": "清·康熙",
+    "summary": "以《聊斋志异》将近五百篇志怪故事写成一部关于欲望、正义与孤独的人类学笔记。",
+    "life": "山东淄川人，屡试不第以塾师为生。在家乡柳泉边设茶待客搜集故事，历时四十余年。",
+    "context": "清初文字狱高压下，花妖狐媚成为表达社会批判和个人欲望的隐喻空间。",
+    "style": [
+      "以志怪写人情",
+      "简洁而意蕴深远",
+      "狐鬼世界的现实投影"
+    ],
+    "ideas": [
+      "孤愤之书",
+      "花妖狐媚比正人更可爱"
+    ],
+    "works": [
+      {
+        "title": "聊斋志异",
+        "year": "约1680—1705",
+        "intro": "近五百篇志怪小说，是中国文言短篇的最高成就。"
+      }
+    ],
+    "links": [
+      [
+        "caoxueqin",
+        "从志怪到世情的文学演进"
       ]
     ],
     "subjects": [
@@ -5307,6 +6862,119 @@ const AUTHORS = [
     "subjects": [
       "politics",
       "philosophy"
+    ]
+  },
+  {
+    "id": "shitao",
+    "subject": "literature",
+    "region": "china",
+    "year": 1700,
+    "dates": "1642—1707",
+    "name": "石涛",
+    "alias": "清初画论革新者",
+    "period": "清初",
+    "summary": "以一画论将绘画从摹古中解放。",
+    "life": "明宗室后裔，幼年出家。遍历名山。",
+    "context": "清初画家面临摹古与创新的抉择。",
+    "style": [
+      "画论与哲学融合"
+    ],
+    "ideas": [
+      "一画论",
+      "笔墨当随时代"
+    ],
+    "works": [
+      {
+        "title": "苦瓜和尚画语录",
+        "year": "约1700",
+        "intro": "十八章系统阐述绘画哲学。"
+      }
+    ],
+    "links": [
+      [
+        "wangwei",
+        "从诗中有画到画中有道"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "philosophy"
+    ],
+    "era": "early-modern"
+  },
+  {
+    "id": "leibniz",
+    "subject": "philosophy",
+    "region": "world",
+    "year": 1710,
+    "dates": "1646—1716",
+    "name": "莱布尼茨",
+    "alias": "最后的万能学者",
+    "period": "神圣罗马帝国",
+    "summary": "与牛顿各自发明微积分，以单子论构建理性主义体系。",
+    "life": "莱比锡人，数学家哲学家外交家。",
+    "context": "科学革命需要哲学重新解释宇宙。",
+    "style": [
+      "体系化理性主义"
+    ],
+    "ideas": [
+      "单子论",
+      "前定和谐"
+    ],
+    "works": [
+      {
+        "title": "单子论",
+        "year": "1714",
+        "intro": "以九十节阐述最后的形上学体系。"
+      }
+    ],
+    "links": [
+      [
+        "descartes",
+        "理性主义的德国传承"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
+    ],
+    "era": "early-modern"
+  },
+  {
+    "id": "defoe",
+    "subject": "literature",
+    "region": "world",
+    "year": 1719,
+    "dates": "1660—1731",
+    "name": "丹尼尔·笛福",
+    "alias": "英国小说的开创者",
+    "era": "early-modern",
+    "period": "英国·18世纪初",
+    "summary": "以《鲁滨逊漂流记》写出现代个人主义的神话：一个人、一个岛、从头开始重建文明。",
+    "life": "伦敦人，商人、间谍、记者。将近六十岁才开始写小说，一写就是经典。",
+    "context": "新兴资产阶级需要自己的文学，一个关于个人奋斗和自我创造的故事。",
+    "style": [
+      "纪实风格的虚构",
+      "以细节制造真实感"
+    ],
+    "ideas": [
+      "个人主义的神话",
+      "文明人的自我放逐与重建"
+    ],
+    "works": [
+      {
+        "title": "鲁滨逊漂流记",
+        "year": "1719",
+        "intro": "以真实海员为原型，写一个人在荒岛上二十八年的生存与精神历程。"
+      }
+    ],
+    "links": [
+      [
+        "thoreau",
+        "孤岛与湖边的独居实验"
+      ]
+    ],
+    "subjects": [
+      "literature"
     ]
   },
   {
@@ -5442,6 +7110,50 @@ const AUTHORS = [
     "subjects": [
       "law",
       "politics",
+      "sociology"
+    ]
+  },
+  {
+    "id": "wujingzi",
+    "subject": "literature",
+    "region": "china",
+    "year": 1749,
+    "dates": "1701—1754",
+    "name": "吴敬梓",
+    "alias": "科举制度的解剖者",
+    "era": "early-modern",
+    "period": "清·乾隆",
+    "summary": "以《儒林外史》对中国科举制度下的知识分子进行最全面最深刻的讽刺，其结构不以一人一事贯穿，恰如社会本身的散点透视。",
+    "life": "安徽全椒人，出身科举世家。三十三岁移居南京，后半生贫病交加。",
+    "context": "科举制度发展到极致时，其对人性的扭曲已无法忽视。",
+    "style": [
+      "散点透视的叙事结构",
+      "以白描写讽刺",
+      "社会全景的小说实验"
+    ],
+    "ideas": [
+      "功名富贵的虚无",
+      "知识分子的精神困境"
+    ],
+    "works": [
+      {
+        "title": "儒林外史",
+        "year": "约1749",
+        "intro": "以范进中举等经典段落写尽科举制度下的人性扭曲。"
+      }
+    ],
+    "links": [
+      [
+        "caoxueqin",
+        "乾隆时期小说的双峰"
+      ],
+      [
+        "luxun",
+        "讽刺文学的传承"
+      ]
+    ],
+    "subjects": [
+      "literature",
       "sociology"
     ]
   },
@@ -5664,6 +7376,50 @@ const AUTHORS = [
       [
         "zhangxuecheng",
         "考据与义理之争"
+      ]
+    ],
+    "subjects": [
+      "philosophy",
+      "history"
+    ]
+  },
+  {
+    "id": "diderot",
+    "subject": "philosophy",
+    "region": "world",
+    "year": 1772,
+    "dates": "1713—1784",
+    "name": "狄德罗",
+    "alias": "百科全书的灵魂",
+    "era": "early-modern",
+    "period": "法国·启蒙时代",
+    "summary": "以二十余年生命主编十七卷《百科全书》，将启蒙时代的知识系统化，以知识为武器挑战旧秩序。",
+    "life": "法国朗格勒人，因发表无神论倾向作品被投入监狱。一生编辑《百科全书》历经政治打压和队友背叛。",
+    "context": "启蒙运动需要一个知识的中央车站来汇集和传播全部的新思想。",
+    "style": [
+      "以编辑部组织思想运动",
+      "对话体的哲学写作"
+    ],
+    "ideas": [
+      "知识即自由",
+      "百科全书作为启蒙的武器"
+    ],
+    "works": [
+      {
+        "title": "百科全书",
+        "year": "1751—1772",
+        "intro": "十七卷正文十一卷图版，是启蒙运动的纪念碑。"
+      },
+      {
+        "title": "拉摩的侄儿",
+        "year": "约1761",
+        "intro": "以对话形式剖析道德虚无主义。"
+      }
+    ],
+    "links": [
+      [
+        "voltaire",
+        "启蒙运动的两大支点"
       ]
     ],
     "subjects": [
@@ -6004,6 +7760,102 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "ruanjuan",
+    "subject": "philosophy",
+    "region": "china",
+    "year": 1790,
+    "dates": "1764—1849",
+    "name": "阮元",
+    "alias": "乾嘉学术的总结者",
+    "era": "early-modern",
+    "period": "清·乾隆—道光",
+    "summary": "以《十三经注疏校勘记》和《畴人传》等大型编纂工作，将乾嘉考据学的方法系统地应用于学术整理和科学史。",
+    "life": "江苏仪征人，乾隆进士。历任多省巡抚、总督，晚年至体仁阁大学士。",
+    "context": "乾嘉学术积累了大量成果，需要有人来做综合和总结。",
+    "style": [
+      "组织大型学术工程",
+      "以编纂代替立说"
+    ],
+    "ideas": [
+      "实事求是",
+      "学术的制度化与传承"
+    ],
+    "works": [
+      {
+        "title": "十三经注疏校勘记",
+        "year": "1806",
+        "intro": "对十三经注疏进行全面校勘。"
+      },
+      {
+        "title": "畴人传",
+        "year": "1799",
+        "intro": "中国第一部天文学家与数学家传记。"
+      }
+    ],
+    "links": [
+      [
+        "daiyizhen",
+        "乾嘉学术的执行者"
+      ],
+      [
+        "zhangxuecheng",
+        "考据与义理的两种路径"
+      ]
+    ],
+    "subjects": [
+      "philosophy",
+      "history"
+    ]
+  },
+  {
+    "id": "burke",
+    "subject": "politics",
+    "region": "world",
+    "year": 1790,
+    "dates": "1729—1797",
+    "name": "埃德蒙·伯克",
+    "alias": "保守主义的奠基者",
+    "era": "early-modern",
+    "period": "英国·18世纪",
+    "summary": "以《对法国大革命的反思》最早系统批判革命激进主义，强调传统、渐进与\"社会的契约不止于一代人\"。",
+    "life": "爱尔兰都柏林人，曾任议员三十余年。支持美国独立却反对法国革命，因其区分了\"自由\"与\"抽象权利\"。",
+    "context": "法国大革命震惊欧洲，需要一套能解释\"为何革命会吞噬自己孩子\"的理论。",
+    "style": [
+      "雄辩而深具历史感",
+      "以具体经验对抗抽象原则"
+    ],
+    "ideas": [
+      "社会的契约跨越多代人",
+      "偏见中常常藏着智慧"
+    ],
+    "works": [
+      {
+        "title": "对法国大革命的反思",
+        "year": "1790",
+        "intro": "预见了大革命的恐怖，成为保守主义的奠基文本。"
+      },
+      {
+        "title": "论崇高与美",
+        "year": "1757",
+        "intro": "美学理论的经典著作。"
+      }
+    ],
+    "links": [
+      [
+        "paine",
+        "革命与保守的经典论战"
+      ],
+      [
+        "rousseau",
+        "对卢梭抽象理性主义的批判"
+      ]
+    ],
+    "subjects": [
+      "politics",
+      "philosophy"
+    ]
+  },
+  {
     "id": "hegel",
     "subject": "philosophy",
     "region": "world",
@@ -6319,6 +8171,43 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "comte",
+    "subject": "sociology",
+    "region": "world",
+    "year": 1838,
+    "dates": "1798—1857",
+    "name": "奥古斯特·孔德",
+    "alias": "社会学命名者",
+    "period": "法国",
+    "summary": "以三阶段法则解释人类思想进化，创造了sociologie。",
+    "life": "法国蒙彼利埃人，曾任圣西门秘书。",
+    "context": "大革命后需要新的知识组织方式。",
+    "style": [
+      "体系化宏大理论"
+    ],
+    "ideas": [
+      "三阶段法则"
+    ],
+    "works": [
+      {
+        "title": "实证哲学教程",
+        "year": "1830",
+        "intro": "六卷系统阐述实证主义知识体系。"
+      }
+    ],
+    "links": [
+      [
+        "durkheim",
+        "社会学的奠基到制度化"
+      ]
+    ],
+    "subjects": [
+      "sociology",
+      "philosophy"
+    ],
+    "era": "modern"
+  },
+  {
     "id": "gongzizhen",
     "subject": "literature",
     "region": "china",
@@ -6360,6 +8249,54 @@ const AUTHORS = [
     "subjects": [
       "literature",
       "politics"
+    ]
+  },
+  {
+    "id": "emerson",
+    "subject": "philosophy",
+    "region": "world",
+    "year": 1841,
+    "dates": "1803—1882",
+    "name": "拉尔夫·沃尔多·爱默生",
+    "alias": "美国精神的独立宣言",
+    "era": "modern",
+    "period": "美国·19世纪",
+    "summary": "以《论自然》和《论自立》宣告美国思想从欧洲的独立，是超验主义运动的核心。",
+    "life": "波士顿人，原为牧师，因信仰危机离开教会。以演讲为生，影响了一整代美国作家。",
+    "context": "年轻的美利坚合众国需要在文化上证明自己不仅仅是欧洲的附庸。",
+    "style": [
+      "格言式的散文",
+      "以自然为启示的源泉"
+    ],
+    "ideas": [
+      "自立",
+      "自然是精神的象征"
+    ],
+    "works": [
+      {
+        "title": "论自立",
+        "year": "1841",
+        "intro": "主张每个人都要相信自己的直觉和思想。"
+      },
+      {
+        "title": "论自然",
+        "year": "1836",
+        "intro": "为超验主义奠定理论基础。"
+      }
+    ],
+    "links": [
+      [
+        "nietzsche",
+        "个人主义的两种表达"
+      ],
+      [
+        "thoreau",
+        "超验主义的两位代表"
+      ]
+    ],
+    "subjects": [
+      "philosophy",
+      "literature"
     ]
   },
   {
@@ -6498,6 +8435,137 @@ const AUTHORS = [
       "sociology",
       "politics",
       "philosophy"
+    ]
+  },
+  {
+    "id": "thoreau",
+    "subject": "philosophy",
+    "region": "world",
+    "year": 1854,
+    "dates": "1817—1862",
+    "name": "亨利·大卫·梭罗",
+    "alias": "瓦尔登湖的隐居者",
+    "era": "modern",
+    "period": "美国·19世纪",
+    "summary": "以在瓦尔登湖边两年两个月的独居实验，证明简单生活可以是抵抗现代文明的最激进方式。",
+    "life": "马萨诸塞州康科德人，在瓦尔登湖边自建木屋生活。以拒绝纳税抗议奴隶制入狱一晚，催生\"公民不服从\"概念。",
+    "context": "美国工业化加速和奴隶制争论中，个人如何在制度暴力中保持良知。",
+    "style": [
+      "以亲身实践验证哲学",
+      "日记文学的极致"
+    ],
+    "ideas": [
+      "公民不服从",
+      "简单生活、丰富心灵"
+    ],
+    "works": [
+      {
+        "title": "瓦尔登湖",
+        "year": "1854",
+        "intro": "以两年湖边生活的记录书写自然、孤独与自由。"
+      },
+      {
+        "title": "论公民不服从",
+        "year": "1849",
+        "intro": "论证个人有权拒绝遵守不公正的法律。"
+      }
+    ],
+    "links": [
+      [
+        "emerson",
+        "超验主义的两位代表"
+      ],
+      [
+        "gandhi",
+        "公民不服从的全球传播"
+      ]
+    ],
+    "subjects": [
+      "philosophy",
+      "politics",
+      "literature"
+    ]
+  },
+  {
+    "id": "whitman",
+    "subject": "literature",
+    "region": "world",
+    "year": 1855,
+    "dates": "1819—1892",
+    "name": "沃尔特·惠特曼",
+    "alias": "美国的诗人",
+    "era": "modern",
+    "period": "美国·19世纪",
+    "summary": "以《草叶集》用前所未有的自由诗体歌唱民主、身体和广袤的美洲大陆。",
+    "life": "纽约长岛人，做过印刷工、记者和教师。南北战争期间志愿担任护士，照料伤兵直到病倒。",
+    "context": "年轻的美国需要自己的诗人来书写这个国家独特的声音。",
+    "style": [
+      "自由诗体",
+      "以身体和自然为诗意来源",
+      "对于多元与民主的歌唱"
+    ],
+    "ideas": [
+      "我歌唱自己",
+      "美国的史诗在草叶中"
+    ],
+    "works": [
+      {
+        "title": "草叶集",
+        "year": "1855—1892",
+        "intro": "一生七次增订的自由诗集，从十二首到近四百首。"
+      }
+    ],
+    "links": [
+      [
+        "emerson",
+        "爱默生的理想诗人"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
+    "id": "flaubert",
+    "subject": "literature",
+    "region": "world",
+    "year": 1857,
+    "dates": "1821—1880",
+    "name": "居斯塔夫·福楼拜",
+    "alias": "现代小说的匠人",
+    "era": "modern",
+    "period": "法国·19世纪",
+    "summary": "以《包法利夫人》将日常生活的平庸提升到悲剧的高度，以\"找到精确的词\"为毕生追求，成为现代小说技法的起点。",
+    "life": "法国鲁昂人，父亲是外科医生。一生大部分时间在乡下写作，每一页都要大声朗读以检查节奏。",
+    "context": "浪漫主义退潮后，需要一种能够精确描写现实的文学。",
+    "style": [
+      "精确到偏执的语言追求",
+      "以自由间接引语写人物心理"
+    ],
+    "ideas": [
+      "日常生活的悲剧性",
+      "作者应该像上帝一样隐身在作品中"
+    ],
+    "works": [
+      {
+        "title": "包法利夫人",
+        "year": "1857",
+        "intro": "以爱玛·包法利的婚外情写出资产阶级生活的平庸与幻灭。"
+      },
+      {
+        "title": "情感教育",
+        "year": "1869",
+        "intro": "以1848年革命为背景写一代人的幻灭。"
+      }
+    ],
+    "links": [
+      [
+        "tolstoy",
+        "19世纪现实主义的两种风格"
+      ]
+    ],
+    "subjects": [
+      "literature"
     ]
   },
   {
@@ -6642,6 +8710,91 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "hugo",
+    "subject": "literature",
+    "region": "world",
+    "year": 1862,
+    "dates": "1802—1885",
+    "name": "维克多·雨果",
+    "alias": "法兰西的良心",
+    "era": "modern",
+    "period": "法国·19世纪",
+    "summary": "以《悲惨世界》将法律与恩典、革命与秩序、苦难与救赎编织为一部关于人类命运的百科全书。",
+    "life": "法国贝桑松人，1827年成为浪漫主义运动领袖。因反对拿破仑三世流亡海外十九年。国葬入先贤祠。",
+    "context": "19世纪法国的革命与反动反复交替，需要一个作家来记录和审判这个时代。",
+    "style": [
+      "史诗般的社会全景",
+      "被压缩到极致的人物命运"
+    ],
+    "ideas": [
+      "悲惨是社会的罪行",
+      "进步是永恒的"
+    ],
+    "works": [
+      {
+        "title": "悲惨世界",
+        "year": "1862",
+        "intro": "以冉阿让的一生追问：一个人能否被社会彻底救赎？"
+      },
+      {
+        "title": "巴黎圣母院",
+        "year": "1831",
+        "intro": "以中世纪的巴黎写尽美与丑、爱与恨。"
+      }
+    ],
+    "links": [
+      [
+        "tolstoy",
+        "19世纪小说的两座高峰"
+      ],
+      [
+        "dickens",
+        "社会小说的大师"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "politics"
+    ]
+  },
+  {
+    "id": "spencer",
+    "subject": "sociology",
+    "region": "world",
+    "year": 1862,
+    "dates": "1820—1903",
+    "name": "赫伯特·斯宾塞",
+    "alias": "社会进化论代表",
+    "period": "英国",
+    "summary": "将进化论应用于社会，发明了适者生存一词。",
+    "life": "英格兰德比人，自学成才。影响明治日本和晚清中国。",
+    "context": "达尔文进化论冲击波扩散。",
+    "style": [
+      "体系化进化理论"
+    ],
+    "ideas": [
+      "适者生存",
+      "社会有机体"
+    ],
+    "works": [
+      {
+        "title": "社会学原理",
+        "year": "1862",
+        "intro": "多卷本系统阐述社会进化论。"
+      }
+    ],
+    "links": [
+      [
+        "darwin",
+        "生物学到社会学的进化论扩展"
+      ]
+    ],
+    "subjects": [
+      "sociology"
+    ],
+    "era": "modern"
+  },
+  {
     "id": "dostoevsky",
     "subject": "literature",
     "region": "world",
@@ -6739,6 +8892,48 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "ibsen",
+    "subject": "literature",
+    "region": "world",
+    "year": 1879,
+    "dates": "1828—1906",
+    "name": "亨利克·易卜生",
+    "alias": "现代戏剧之父",
+    "era": "modern",
+    "period": "挪威·19世纪",
+    "summary": "以《玩偶之家》和《群鬼》将普通人的家庭变成解剖社会伪善的手术台。",
+    "life": "挪威希恩人，早年在药店当学徒。后旅居意大利和德国长达二十七年。",
+    "context": "19世纪末欧洲中产阶级的道德体系正在崩溃，家庭成为最激烈的战场。",
+    "style": [
+      "社会问题的戏剧化",
+      "以对话揭示人物内心"
+    ],
+    "ideas": [
+      "个人的诚实高于社会的期待"
+    ],
+    "works": [
+      {
+        "title": "玩偶之家",
+        "year": "1879",
+        "intro": "娜拉摔门而去的声音响彻欧洲，宣告了女性对家庭的出走。"
+      },
+      {
+        "title": "人民公敌",
+        "year": "1882",
+        "intro": "以一个人对抗整个社会的勇气。"
+      }
+    ],
+    "links": [
+      [
+        "beckett",
+        "从易卜生到贝克特的戏剧演进"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
     "id": "homes",
     "subject": "law",
     "region": "world",
@@ -6832,6 +9027,93 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "wengtonghe",
+    "subject": "politics",
+    "region": "china",
+    "year": 1890,
+    "dates": "1830—1904",
+    "name": "翁同龢",
+    "alias": "帝师与维新推手",
+    "era": "modern",
+    "period": "晚清",
+    "summary": "以光绪帝师傅的身份推荐康梁，主导戊戌变法的朝中力量，是帝党与维新派之间的关键纽带。",
+    "life": "江苏常熟人，状元出身。两朝帝师，长期主管军机处和总理衙门。戊戌政变后被革职永不叙用。",
+    "context": "甲午战败后朝廷分裂为帝党后党，帝师成为连接皇帝与维新派的桥梁。",
+    "style": [
+      "以地位推动变革",
+      "在皇权与变法间的微妙平衡"
+    ],
+    "ideas": [
+      "变法不可逆转",
+      "读书人的责任"
+    ],
+    "works": [
+      {
+        "title": "翁文恭公日记",
+        "year": "约1858—1904",
+        "intro": "四十七年日记记录晚清政局的变迁。"
+      }
+    ],
+    "links": [
+      [
+        "kangyouwei",
+        "变法运动的内外配合"
+      ],
+      [
+        "liangqichao",
+        "从帝师到启蒙者的转型"
+      ]
+    ],
+    "subjects": [
+      "politics",
+      "history"
+    ]
+  },
+  {
+    "id": "wilde",
+    "subject": "literature",
+    "region": "world",
+    "year": 1890,
+    "dates": "1854—1900",
+    "name": "奥斯卡·王尔德",
+    "alias": "唯美主义的殉道者",
+    "era": "modern",
+    "period": "英国·维多利亚晚期",
+    "summary": "以《道林·格雷的画像》和一系列不朽的喜剧在上流社会的客厅里引爆最锋利的道德炸弹。",
+    "life": "都柏林人，牛津毕业后成为伦敦社交界的明星。因同性恋被判两年苦役，出狱三年后在巴黎落魄而死。",
+    "context": "维多利亚时代虚伪的道德观需要有人来戳破。",
+    "style": [
+      "机智的悖论与警句",
+      "以喜剧形式承载虚无"
+    ],
+    "ideas": [
+      "艺术无用之用",
+      "只有肤浅的人才不以貌取人"
+    ],
+    "works": [
+      {
+        "title": "道林·格雷的画像",
+        "year": "1890",
+        "intro": "以一幅永不衰老的画像探讨美、道德与灵魂的代价。"
+      },
+      {
+        "title": "不可儿戏",
+        "year": "1895",
+        "intro": "以完美无瑕的机智写尽上流社会的伪善。"
+      }
+    ],
+    "links": [
+      [
+        "shakespeare",
+        "英语戏剧传统的最后辉煌"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "philosophy"
+    ]
+  },
+  {
     "id": "durkheim",
     "subject": "sociology",
     "region": "world",
@@ -6918,6 +9200,48 @@ const AUTHORS = [
       [
         "liangqichao",
         "师生联手推动维新"
+      ]
+    ],
+    "subjects": [
+      "politics",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "tanqitong",
+    "subject": "politics",
+    "region": "china",
+    "year": 1898,
+    "dates": "1865—1898",
+    "name": "谭嗣同",
+    "alias": "为变法牺牲的第一人",
+    "era": "modern",
+    "period": "晚清",
+    "summary": "以《仁学》系统论述变法理论，戊戌政变后拒绝逃亡，以鲜血宣告变法的不可阻挡。",
+    "life": "湖南浏阳人，出身官宦。任四品军机章京参与新政，政变后在菜市口就义，年仅三十三。",
+    "context": "戊戌变法失败后，需要有人以生命证明变法的道义力量。",
+    "style": [
+      "以死明志的行动哲学"
+    ],
+    "ideas": [
+      "各国变法无不从流血而成",
+      "仁的通与平等"
+    ],
+    "works": [
+      {
+        "title": "仁学",
+        "year": "1897",
+        "intro": "以佛学、西学和儒学融合论证变革的必要。"
+      }
+    ],
+    "links": [
+      [
+        "kangyouwei",
+        "维新运动的牺牲者"
+      ],
+      [
+        "luxun",
+        "从谭嗣同到鲁迅的批判精神"
       ]
     ],
     "subjects": [
@@ -7021,6 +9345,53 @@ const AUTHORS = [
     "subjects": [
       "philosophy",
       "sociology"
+    ]
+  },
+  {
+    "id": "chekhov",
+    "subject": "literature",
+    "region": "world",
+    "year": 1900,
+    "dates": "1860—1904",
+    "name": "安东·契诃夫",
+    "alias": "短篇小说的大师",
+    "era": "modern",
+    "period": "俄罗斯帝国·19世纪末",
+    "summary": "以《樱桃园》和数百篇短篇小说将\"无事发生\"变成最高级的叙事，让表面平静的生活下暗流涌动。",
+    "life": "亚速海边塔甘罗格人，祖父是农奴。一边行医一边写作，四十四岁死于肺结核。",
+    "context": "俄国农奴制改革后的社会转型期，日常生活中充满了未被言说的变化。",
+    "style": [
+      "简洁到极致的叙事",
+      "以细节暗示代替明确表达"
+    ],
+    "ideas": [
+      "短篇小说的现代性",
+      "平凡中的悲剧"
+    ],
+    "works": [
+      {
+        "title": "樱桃园",
+        "year": "1904",
+        "intro": "樱桃园被拍卖，旧时代正在消逝。"
+      },
+      {
+        "title": "套中人",
+        "year": "1898",
+        "intro": "以别里科夫写出对变化的恐惧。"
+      }
+    ],
+    "links": [
+      [
+        "tolstoy",
+        "俄罗斯写实传统的传承"
+      ],
+      [
+        "kafka",
+        "从契诃夫到卡夫卡的现代转型"
+      ]
+    ],
+    "subjects": [
+      "literature"
     ]
   },
   {
@@ -7219,6 +9590,50 @@ const AUTHORS = [
       "sociology",
       "politics",
       "history"
+    ]
+  },
+  {
+    "id": "einstein",
+    "subject": "history",
+    "region": "world",
+    "year": 1905,
+    "dates": "1879—1955",
+    "name": "阿尔伯特·爱因斯坦",
+    "alias": "世纪的科学巨人",
+    "era": "modern",
+    "period": "德国—美国·20世纪",
+    "summary": "以狭义和广义相对论彻底改变了人类对时空的理解，E=mc2成为20世纪的标志性符号。",
+    "life": "德国乌尔姆人，1905年在专利局做职员时发表四篇改变物理学的论文。因纳粹上台移民美国。",
+    "context": "20世纪初物理学面临危机，传统时空观无法解释新的实验结果。",
+    "style": [
+      "思想实验",
+      "以简单原理推导深远结论"
+    ],
+    "ideas": [
+      "想象力比知识更重要",
+      "上帝不掷骰子"
+    ],
+    "works": [
+      {
+        "title": "论动体的电动力学",
+        "year": "1905",
+        "intro": "狭义相对论的奠基论文。"
+      },
+      {
+        "title": "广义相对论的基础",
+        "year": "1916",
+        "intro": "将引力解释为时空的弯曲。"
+      }
+    ],
+    "links": [
+      [
+        "galilei",
+        "从伽利略到爱因斯坦的科学革命"
+      ]
+    ],
+    "subjects": [
+      "history",
+      "philosophy"
     ]
   },
   {
@@ -7446,6 +9861,50 @@ const AUTHORS = [
     ],
     "subjects": [
       "sociology"
+    ]
+  },
+  {
+    "id": "proust",
+    "subject": "literature",
+    "region": "world",
+    "year": 1913,
+    "dates": "1871—1922",
+    "name": "马塞尔·普鲁斯特",
+    "alias": "时间的小说家",
+    "era": "modern",
+    "period": "法国·20世纪初",
+    "summary": "以七卷《追忆逝水年华》将全部人生变成一块玛德琳蛋糕的气味所引发的叙事洪流，重新定义了时间与记忆。",
+    "life": "巴黎富家子弟，从小体弱。母亲去世后深居软木衬壁的房间，在床上完成巨著。",
+    "context": "一战前后的法国，旧时代的沙龙文化正在消逝，时间本身成为小说的主角。",
+    "style": [
+      "长句的绵延与盘旋",
+      "非自主记忆的发掘",
+      "一个上流社会的完整标本"
+    ],
+    "ideas": [
+      "逝去的时间可以在艺术中重新找回",
+      "真正的天堂是已经失去的天堂"
+    ],
+    "works": [
+      {
+        "title": "追忆逝水年华",
+        "year": "1913—1927",
+        "intro": "七卷以斯万家那边和盖尔芒特家那边为两极重建整个失去的世界。"
+      }
+    ],
+    "links": [
+      [
+        "woolf",
+        "时间的两种文学处理"
+      ],
+      [
+        "caoxueqin",
+        "家族记忆作为长河叙事的跨文化对照"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "philosophy"
     ]
   },
   {
@@ -7682,6 +10141,48 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "zhuxiqing",
+    "subject": "literature",
+    "region": "china",
+    "year": 1920,
+    "dates": "1898—1948",
+    "name": "朱自清",
+    "alias": "白话美文的典范",
+    "era": "modern",
+    "period": "民国",
+    "summary": "以《背影》《荷塘月色》将白话文提升到可以承载最深情的文学高度。",
+    "life": "江苏东海人，北大毕业。清华教授，抗战期间在西南联大任教。以胃病拒绝领取美国救济粮而死。",
+    "context": "新文学需要证明白话文不仅可以呐喊，也可以低语和抒情。",
+    "style": [
+      "朴素而深情的散文语言",
+      "以细节承载情感"
+    ],
+    "ideas": [
+      "白话文的美学可能性"
+    ],
+    "works": [
+      {
+        "title": "背影",
+        "year": "1925",
+        "intro": "以父亲穿过铁轨买橘子的背影，写出中国文学中最动人的父子情。"
+      },
+      {
+        "title": "荷塘月色",
+        "year": "1927",
+        "intro": "以月下荷塘的静美写知识分子的精神困境。"
+      }
+    ],
+    "links": [
+      [
+        "luxun",
+        "白话文学的两种可能"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
     "id": "wittgenstein",
     "subject": "philosophy",
     "region": "world",
@@ -7783,6 +10284,54 @@ const AUTHORS = [
     "subjects": [
       "politics",
       "law"
+    ]
+  },
+  {
+    "id": "jamesjoyce",
+    "subject": "literature",
+    "region": "world",
+    "year": 1922,
+    "dates": "1882—1941",
+    "name": "詹姆斯·乔伊斯",
+    "alias": "现代主义小说的革命者",
+    "era": "modern",
+    "period": "爱尔兰·20世纪",
+    "summary": "以《尤利西斯》将一天都柏林的漫游写成意识流百科全书，让小说从此不再只是\"讲故事\"。",
+    "life": "都柏林人，自我流放至巴黎、苏黎世、的里雅斯特。晚年几乎完全失明。",
+    "context": "一战打破了维多利亚时代的一切确定性，包括小说的叙述方式。",
+    "style": [
+      "意识流的极致运用",
+      "语言游戏与多层能指",
+      "以个人写尽人类经验"
+    ],
+    "ideas": [
+      "把都柏林变成世界的缩影",
+      "小说的可能性尚未穷尽"
+    ],
+    "works": [
+      {
+        "title": "尤利西斯",
+        "year": "1922",
+        "intro": "以900页写1904年6月16日都柏林的三个普通人的内心世界。"
+      },
+      {
+        "title": "都柏林人",
+        "year": "1914",
+        "intro": "十五篇短篇写都柏林人的精神瘫痪。"
+      }
+    ],
+    "links": [
+      [
+        "homer",
+        "从史诗到现代反史诗"
+      ],
+      [
+        "woolf",
+        "意识流的英爱双峰"
+      ]
+    ],
+    "subjects": [
+      "literature"
     ]
   },
   {
@@ -7963,6 +10512,50 @@ const AUTHORS = [
     ],
     "subjects": [
       "sociology"
+    ]
+  },
+  {
+    "id": "gandhi",
+    "subject": "politics",
+    "region": "world",
+    "year": 1930,
+    "dates": "1869—1948",
+    "name": "莫罕达斯·甘地",
+    "alias": "非暴力抵抗的圣人",
+    "era": "modern",
+    "period": "印度·20世纪",
+    "summary": "以非暴力不合作运动领导印度独立，将\"坚持真理\"从个人修养变成改变世界的政治技术。",
+    "life": "印度古吉拉特人，留学英国成为律师，在南非开始民权活动。回国后领导国大党，1948年被印度教极端分子刺杀。",
+    "context": "大英帝国在印度的统治面临挑战，暴力革命之外是否存在另一条路。",
+    "style": [
+      "以身体作为政治武器",
+      "简洁的道德语言"
+    ],
+    "ideas": [
+      "非暴力（ahimsa）",
+      "坚持真理（satyagraha）",
+      "成为你希望在世界上看到的改变"
+    ],
+    "works": [
+      {
+        "title": "甘地自传",
+        "year": "1925",
+        "intro": "以\"我体验真理的故事\"为副标题的精神自传。"
+      }
+    ],
+    "links": [
+      [
+        "thoreau",
+        "公民不服从的全球实践"
+      ],
+      [
+        "marcusaurelius",
+        "东西方的精神修炼"
+      ]
+    ],
+    "subjects": [
+      "politics",
+      "philosophy"
     ]
   },
   {
@@ -8330,6 +10923,54 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "linyutang",
+    "subject": "literature",
+    "region": "china",
+    "year": 1937,
+    "dates": "1895—1976",
+    "name": "林语堂",
+    "alias": "中西文化的摆渡人",
+    "era": "modern",
+    "period": "民国—海外",
+    "summary": "以英文写作向西方介绍中国文化，以中文随笔向中国介绍西方幽默，\"两脚踏东西文化，一心评宇宙文章\"。",
+    "life": "福建龙溪人，留美留德。与鲁迅由合作到分歧，后长期旅居美国。发明中文打字机。",
+    "context": "二十世纪中西文化交流最活跃的时期，需要能用双方语言写作的摆渡人。",
+    "style": [
+      "幽默闲适的散文风格",
+      "以西方视角重新发现中国"
+    ],
+    "ideas": [
+      "性灵与幽默",
+      "生活的艺术"
+    ],
+    "works": [
+      {
+        "title": "吾国与吾民",
+        "year": "1935",
+        "intro": "向西方全面介绍中国文化。"
+      },
+      {
+        "title": "京华烟云",
+        "year": "1939",
+        "intro": "以英文写出中国的家族史诗，获诺贝尔文学奖提名。"
+      }
+    ],
+    "links": [
+      [
+        "luxun",
+        "散文的两条道路"
+      ],
+      [
+        "sushi",
+        "性灵文学的传承"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "philosophy"
+    ]
+  },
+  {
     "id": "qianmu",
     "subject": "history",
     "region": "china",
@@ -8665,6 +11306,55 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "popper",
+    "subject": "philosophy",
+    "region": "world",
+    "year": 1945,
+    "dates": "1902—1994",
+    "name": "卡尔·波普尔",
+    "alias": "开放社会的捍卫者",
+    "era": "modern",
+    "period": "奥地利—英国·20世纪",
+    "summary": "以\"可证伪性\"划出科学与伪科学的边界，以《开放社会及其敌人》将柏拉图、黑格尔、马克思列为极权主义的思想源头。",
+    "life": "维也纳人，纳粹上台后流亡新西兰，后赴伦敦政治经济学院任教。",
+    "context": "二战中流亡知识分子的亲身经历，需要为自由社会建立哲学辩护。",
+    "style": [
+      "清晰有力的论证",
+      "以可证伪性作为科学标准"
+    ],
+    "ideas": [
+      "开放社会",
+      "证伪主义",
+      "零星社会工程"
+    ],
+    "works": [
+      {
+        "title": "开放社会及其敌人",
+        "year": "1945",
+        "intro": "批判从柏拉图到马克思的\"封闭社会\"思想传统。"
+      },
+      {
+        "title": "科学发现的逻辑",
+        "year": "1934",
+        "intro": "提出证伪作为科学与伪科学的划界标准。"
+      }
+    ],
+    "links": [
+      [
+        "hayek",
+        "开放社会的两位奥地利捍卫者"
+      ],
+      [
+        "plato",
+        "对柏拉图的现代批判"
+      ]
+    ],
+    "subjects": [
+      "philosophy",
+      "politics"
+    ]
+  },
+  {
     "id": "feixiaotong",
     "subject": "sociology",
     "region": "china",
@@ -8938,6 +11628,91 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "simone",
+    "subject": "philosophy",
+    "region": "world",
+    "year": 1949,
+    "dates": "1908—1986",
+    "name": "西蒙娜·德·波伏娃",
+    "alias": "第二性的作者",
+    "period": "法国",
+    "summary": "女人不是天生的而是后天成为的。",
+    "life": "巴黎人，萨特的终身伴侣。",
+    "context": "战后欧洲女性刚刚获得选举权。",
+    "style": [
+      "存在主义性别分析"
+    ],
+    "ideas": [
+      "女人不是天生的而是成为的"
+    ],
+    "works": [
+      {
+        "title": "第二性",
+        "year": "1949",
+        "intro": "两卷本从多学科分析女性处境。"
+      }
+    ],
+    "links": [
+      [
+        "sartre",
+        "存在主义的伴侣"
+      ],
+      [
+        "woolf",
+        "女性写作的两座里程碑"
+      ]
+    ],
+    "subjects": [
+      "philosophy",
+      "literature",
+      "sociology"
+    ],
+    "era": "contemporary"
+  },
+  {
+    "id": "neruda",
+    "subject": "literature",
+    "region": "world",
+    "year": 1950,
+    "dates": "1904—1973",
+    "name": "巴勃罗·聂鲁达",
+    "alias": "拉丁美洲的声音",
+    "era": "contemporary",
+    "period": "智利·20世纪",
+    "summary": "以《二十首情诗》和《漫歌》将爱情、政治和美洲大陆的历史编织为20世纪最丰沛的抒情诗。",
+    "life": "智利帕拉尔人，早年任外交官。1971年获诺贝尔文学奖，两年后在皮诺切特政变后不久死于癌症。",
+    "context": "拉美大陆在殖民、革命与发展之间寻找自己的声音。",
+    "style": [
+      "丰沛的意象与激情",
+      "政治与诗的统一"
+    ],
+    "ideas": [
+      "爱是短暂的遗忘与漫长的回归"
+    ],
+    "works": [
+      {
+        "title": "二十首情诗和一支绝望的歌",
+        "year": "1924",
+        "intro": "以青年时代的爱情写出拉美诗歌最畅销的作品。"
+      },
+      {
+        "title": "漫歌",
+        "year": "1950",
+        "intro": "以美洲大陆的历史为主题的长诗集。"
+      }
+    ],
+    "links": [
+      [
+        "whitman",
+        "美洲大地的两位诗人"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "politics"
+    ]
+  },
+  {
     "id": "arendt",
     "subject": "politics",
     "region": "world",
@@ -8986,6 +11761,55 @@ const AUTHORS = [
       "politics",
       "philosophy",
       "sociology"
+    ]
+  },
+  {
+    "id": "beckett",
+    "subject": "literature",
+    "region": "world",
+    "year": 1953,
+    "dates": "1906—1989",
+    "name": "塞缪尔·贝克特",
+    "alias": "等待的剧作家",
+    "era": "contemporary",
+    "period": "爱尔兰—法国·20世纪",
+    "summary": "以《等待戈多》将人类处境简化为两个流浪汉在路边等待一个永远不会来的人，道出战后最根本的荒诞。",
+    "life": "都柏林人，乔伊斯的秘书和朋友。二战参加法国抵抗运动，后用法语和英语双语写作。",
+    "context": "大屠杀和原子弹之后，语言还能说什么？贝克特的回答是：越少越好。",
+    "style": [
+      "极简主义的极致",
+      "以沉默和停顿说话",
+      "悲喜剧的完美平衡"
+    ],
+    "ideas": [
+      "我们必须等待",
+      "失败得更好"
+    ],
+    "works": [
+      {
+        "title": "等待戈多",
+        "year": "1953",
+        "intro": "两个流浪汉在路边等待戈多，戈多始终没有来。"
+      },
+      {
+        "title": "终局",
+        "year": "1957",
+        "intro": "四个残废角色在末日般的房间里，语言只剩下碎片。"
+      }
+    ],
+    "links": [
+      [
+        "camus",
+        "荒诞的两种表达"
+      ],
+      [
+        "kafka",
+        "等待与审判"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "philosophy"
     ]
   },
   {
@@ -9078,6 +11902,51 @@ const AUTHORS = [
     "subjects": [
       "sociology",
       "literature"
+    ]
+  },
+  {
+    "id": "chomsky",
+    "subject": "philosophy",
+    "region": "world",
+    "year": 1957,
+    "dates": "1928—",
+    "name": "诺姆·乔姆斯基",
+    "alias": "语言学与政治批判的双面巨人",
+    "era": "contemporary",
+    "period": "美国·20世纪",
+    "summary": "以生成语法革命语言学，以为美国外交政策的持续批判践行\"知识分子的责任\"。",
+    "life": "费城人，麻省理工学院教授。早年因反对越战被列入尼克松的敌人名单。",
+    "context": "冷战与越战时期，需要同时革新学院学科和公共话语。",
+    "style": [
+      "形式化的语法理论",
+      "对权力的持续批判"
+    ],
+    "ideas": [
+      "语言的天赋性",
+      "制造同意"
+    ],
+    "works": [
+      {
+        "title": "句法结构",
+        "year": "1957",
+        "intro": "以生成语法理论彻底改变现代语言学。"
+      },
+      {
+        "title": "制造共识",
+        "year": "1988",
+        "intro": "与赫尔曼合著，分析大众媒体如何服务于权力。"
+      }
+    ],
+    "links": [
+      [
+        "foucault",
+        "权力的两种分析路径"
+      ]
+    ],
+    "subjects": [
+      "philosophy",
+      "politics",
+      "sociology"
     ]
   },
   {
@@ -9174,6 +12043,119 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "kuhn",
+    "subject": "philosophy",
+    "region": "world",
+    "year": 1962,
+    "dates": "1922—1996",
+    "name": "托马斯·库恩",
+    "alias": "科学革命的哲学家",
+    "period": "美国",
+    "summary": "以范式转换彻底改变了我们对科学进步的理解。",
+    "life": "物理学家出身转向科学史。",
+    "context": "科学哲学需要转向历史研究。",
+    "style": [
+      "以历史替代逻辑"
+    ],
+    "ideas": [
+      "范式转换",
+      "不可通约性"
+    ],
+    "works": [
+      {
+        "title": "科学革命的结构",
+        "year": "1962",
+        "intro": "以范式概念重写科学史。"
+      }
+    ],
+    "links": [
+      [
+        "popper",
+        "科学进步的两种理论"
+      ]
+    ],
+    "subjects": [
+      "philosophy",
+      "history"
+    ],
+    "era": "contemporary"
+  },
+  {
+    "id": "friedman",
+    "subject": "politics",
+    "region": "world",
+    "year": 1962,
+    "dates": "1912—2006",
+    "name": "米尔顿·弗里德曼",
+    "alias": "自由市场传道者",
+    "period": "美国",
+    "summary": "以货币主义深刻影响了20世纪后半叶的全球经济政策。",
+    "life": "纽约移民家庭出身，芝加哥大学教授，1976年诺贝尔奖。",
+    "context": "战后凯恩斯主义主导。",
+    "style": [
+      "以数据支撑自由主义政策"
+    ],
+    "ideas": [
+      "自由选择"
+    ],
+    "works": [
+      {
+        "title": "资本主义与自由",
+        "year": "1962",
+        "intro": "论证经济自由是政治自由的必要条件。"
+      }
+    ],
+    "links": [
+      [
+        "hayek",
+        "自由经济思想的两位旗手"
+      ]
+    ],
+    "subjects": [
+      "politics",
+      "sociology"
+    ],
+    "era": "contemporary"
+  },
+  {
+    "id": "mcluhan",
+    "subject": "sociology",
+    "region": "world",
+    "year": 1964,
+    "dates": "1911—1980",
+    "name": "马歇尔·麦克卢汉",
+    "alias": "媒介即信息",
+    "period": "加拿大",
+    "summary": "以媒介即信息和地球村提前半个世纪预言数字时代。",
+    "life": "加拿大埃德蒙顿人，剑桥博士。",
+    "context": "电视正在改变人类感知世界的方式。",
+    "style": [
+      "格言式理论写作"
+    ],
+    "ideas": [
+      "媒介即信息",
+      "地球村"
+    ],
+    "works": [
+      {
+        "title": "理解媒介",
+        "year": "1964",
+        "intro": "以三十三章分析不同媒介如何重塑人的感知。"
+      }
+    ],
+    "links": [
+      [
+        "foucault",
+        "技术与权力的两位分析者"
+      ]
+    ],
+    "subjects": [
+      "sociology",
+      "philosophy"
+    ],
+    "era": "contemporary"
+  },
+  {
     "id": "marquez",
     "subject": "literature",
     "region": "world",
@@ -9264,6 +12246,56 @@ const AUTHORS = [
     "subjects": [
       "law",
       "philosophy"
+    ]
+  },
+  {
+    "id": "derrida",
+    "subject": "philosophy",
+    "region": "world",
+    "year": 1967,
+    "dates": "1930—2004",
+    "name": "雅克·德里达",
+    "alias": "解构主义的创始人",
+    "era": "contemporary",
+    "period": "法国·20世纪",
+    "summary": "以\"延异\"和\"解构\"动摇西方形而上学的根基，将文本阅读变成一场对\"在场\"形而上学的持续追问。",
+    "life": "阿尔及利亚犹太家庭出身，在巴黎高师师从阿尔都塞。在美国比在法国获得更大影响。",
+    "context": "1968年五月风暴后，结构主义的自洽体系受到质疑，需要一种更彻底的批判姿态。",
+    "style": [
+      "细致的文本解构",
+      "对二元对立的颠覆",
+      "发明的概念成为思想工具"
+    ],
+    "ideas": [
+      "延异",
+      "文本之外无他物",
+      "逻各斯中心主义的批判"
+    ],
+    "works": [
+      {
+        "title": "论文字学",
+        "year": "1967",
+        "intro": "提出解构主义的基本概念。"
+      },
+      {
+        "title": "书写与差异",
+        "year": "1967",
+        "intro": "以论文集形式展开对结构主义的批判。"
+      }
+    ],
+    "links": [
+      [
+        "heidegger",
+        "从存在到解构"
+      ],
+      [
+        "foucault",
+        "后结构主义的两种路径"
+      ]
+    ],
+    "subjects": [
+      "philosophy",
+      "literature"
     ]
   },
   {
