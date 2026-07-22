@@ -2328,6 +2328,46 @@ const AUTHORS = [
     "era": "ancient"
   },
   {
+    "id": "buddha",
+    "subject": "philosophy",
+    "region": "world",
+    "year": -500,
+    "dates": "约前563—前483",
+    "name": "释迦牟尼",
+    "alias": "觉悟者",
+    "era": "ancient",
+    "period": "古印度",
+    "summary": "以四圣谛和八正道为人类指出从痛苦中解脱的道路。",
+    "life": "古印度迦毗罗卫国王子出家苦行六年后在菩提树下觉悟。",
+    "context": "印度宗教哲学从祭祀转向个人修行与觉悟。",
+    "style": [
+      "以问答和譬喻讲法"
+    ],
+    "ideas": [
+      "苦集灭道四圣谛中道"
+    ],
+    "works": [
+      {
+        "title": "阿含经",
+        "year": "约前5世纪",
+        "intro": "原始佛教经典记录佛陀的基本教义。"
+      }
+    ],
+    "links": [
+      [
+        "laozi",
+        "东西方觉悟之路平行"
+      ],
+      [
+        "marcusaurelius",
+        "精神修炼东西方对照"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
+    ]
+  },
+  {
     "id": "parmenides",
     "subject": "philosophy",
     "region": "world",
@@ -2582,6 +2622,78 @@ const AUTHORS = [
       "history",
       "politics"
     ]
+  },
+  {
+    "id": "golgi",
+    "subject": "philosophy",
+    "region": "world",
+    "year": -410,
+    "dates": "约前483—约前375",
+    "name": "高尔吉亚",
+    "alias": "修辞学的奠基者",
+    "period": "古典希腊",
+    "summary": "以三重论证无物存在若有物存在也无法认识若能认识也无法传达将怀疑论推向极致。",
+    "life": "西西里莱昂蒂尼人以演说术闻名据说活到一百零八岁。",
+    "context": "智者运动的极致是将修辞本身变成哲学问题。",
+    "style": [
+      "极端的怀疑论证"
+    ],
+    "ideas": [
+      "语言与真实的关系"
+    ],
+    "works": [
+      {
+        "title": "论非存在",
+        "year": "约前410",
+        "intro": "以三重论证无物存在。"
+      }
+    ],
+    "links": [
+      [
+        "protagoras",
+        "智者运动的双峰"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
+    ],
+    "era": "ancient"
+  },
+  {
+    "id": "gorgias",
+    "subject": "philosophy",
+    "region": "world",
+    "year": -410,
+    "dates": "约前483—约前375",
+    "name": "高尔吉亚",
+    "alias": "修辞学奠基者",
+    "period": "古典希腊",
+    "summary": "以三重论证无物存在将怀疑论推向极致。",
+    "life": "西西里莱昂蒂尼人以演说术闻名据说活到一百零八岁。",
+    "context": "智者运动极致是将修辞本身变成哲学问题。",
+    "style": [
+      "极端怀疑论证"
+    ],
+    "ideas": [
+      "语言与真实关系"
+    ],
+    "works": [
+      {
+        "title": "论非存在",
+        "year": "约前410",
+        "intro": "以三重论证无物存在。"
+      }
+    ],
+    "links": [
+      [
+        "protagoras",
+        "智者运动双峰"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
+    ],
+    "era": "ancient"
   },
   {
     "id": "zuozhuan",
@@ -3908,6 +4020,46 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "nagarjuna",
+    "subject": "philosophy",
+    "region": "world",
+    "year": 200,
+    "dates": "约150—250",
+    "name": "龙树",
+    "alias": "中观学派创立者",
+    "era": "ancient",
+    "period": "古印度",
+    "summary": "以空性理论和八不中道将佛教哲学推向思辨的最高峰。",
+    "life": "南印度人传说曾入龙宫取经。",
+    "context": "大乘佛教兴起需要系统的哲学辩护。",
+    "style": [
+      "严密的中观辩证法"
+    ],
+    "ideas": [
+      "空性八不中道"
+    ],
+    "works": [
+      {
+        "title": "中论",
+        "year": "约200",
+        "intro": "以八不否定一切自性见。"
+      }
+    ],
+    "links": [
+      [
+        "buddha",
+        "佛教哲学的深化"
+      ],
+      [
+        "zhuxi",
+        "空与理跨文明比较"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
+    ]
+  },
+  {
     "id": "caocao",
     "subject": "literature",
     "region": "china",
@@ -4395,6 +4547,46 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "zhongyao",
+    "subject": "literature",
+    "region": "china",
+    "year": 503,
+    "dates": "约469—约518",
+    "name": "钟嵘",
+    "alias": "诗歌品评之祖",
+    "period": "南朝梁",
+    "summary": "以《诗品》首创诗歌品第批评将百余诗人分列三品。",
+    "life": "颍川长社人曾任记室等小官与刘勰同时代而互不知名。",
+    "context": "五言诗在六朝已成主流需要系统评价框架。",
+    "style": [
+      "以品第论高下"
+    ],
+    "ideas": [
+      "滋味说直寻与自然英旨"
+    ],
+    "works": [
+      {
+        "title": "诗品",
+        "year": "约513",
+        "intro": "将汉至梁百余诗人分上中下三品。"
+      }
+    ],
+    "links": [
+      [
+        "caozhi",
+        "品第最高的建安之杰"
+      ],
+      [
+        "liuxie",
+        "南朝批评的双璧"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ],
+    "era": "medieval"
+  },
+  {
     "id": "boethius",
     "subject": "philosophy",
     "region": "world",
@@ -4790,6 +4982,42 @@ const AUTHORS = [
     ],
     "subjects": [
       "literature"
+    ]
+  },
+  {
+    "id": "shankara",
+    "subject": "philosophy",
+    "region": "world",
+    "year": 800,
+    "dates": "约788—820",
+    "name": "商羯罗",
+    "alias": "吠檀多哲学集大成者",
+    "era": "medieval",
+    "period": "古印度",
+    "summary": "以不二论将印度哲学系统化论证梵我合一在短短三十二年生命中改变了印度思想史。",
+    "life": "卡拉迪人以惊人的早慧论遍印度宣称世界是幻。",
+    "context": "印度宗教哲学内部佛教与印度教的竞争。",
+    "style": [
+      "严密的不二论论证"
+    ],
+    "ideas": [
+      "梵我合一世界是幻"
+    ],
+    "works": [
+      {
+        "title": "梵经注",
+        "year": "约800",
+        "intro": "对吠檀多根本经典的系统注释。"
+      }
+    ],
+    "links": [
+      [
+        "nagarjuna",
+        "印度哲学两座高峰"
+      ]
+    ],
+    "subjects": [
+      "philosophy"
     ]
   },
   {
@@ -5665,6 +5893,43 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "rumi",
+    "subject": "literature",
+    "region": "world",
+    "year": 1260,
+    "dates": "1207—1273",
+    "name": "鲁米",
+    "alias": "旋转的诗人",
+    "era": "medieval",
+    "period": "波斯",
+    "summary": "以玛斯纳维将苏菲神秘主义的爱提升为世界文学中最热烈的灵性诗歌。",
+    "life": "波斯诗人与游方僧沙姆士的相遇彻底改变了他的人生此后诗歌如泉水喷涌。",
+    "context": "伊斯兰神秘主义在波斯达到文学表达的顶峰。",
+    "style": [
+      "以爱为宇宙动力"
+    ],
+    "ideas": [
+      "在爱中消融自我"
+    ],
+    "works": [
+      {
+        "title": "玛斯纳维",
+        "year": "约1260",
+        "intro": "六卷波斯文诗歌被誉为波斯语古兰经。"
+      }
+    ],
+    "links": [
+      [
+        "ibnkhaldun",
+        "伊斯兰文明的精神与社会科学双峰"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "philosophy"
+    ]
+  },
+  {
     "id": "aquinas",
     "subject": "philosophy",
     "region": "world",
@@ -5738,6 +6003,43 @@ const AUTHORS = [
       [
         "quyuan",
         "殉国者的精神谱系"
+      ]
+    ],
+    "subjects": [
+      "politics",
+      "literature"
+    ],
+    "era": "medieval"
+  },
+  {
+    "id": "wentiantian",
+    "subject": "politics",
+    "region": "china",
+    "year": 1278,
+    "dates": "1236—1283",
+    "name": "文天祥",
+    "alias": "宋末殉国者",
+    "period": "南宋末",
+    "summary": "人生自古谁无死留取丹心照汗青。",
+    "life": "吉州庐陵人状元兵败被俘不降就义。",
+    "context": "南宋灭亡需要新精神符号。",
+    "style": [
+      "以死明志"
+    ],
+    "ideas": [
+      "正气"
+    ],
+    "works": [
+      {
+        "title": "正气歌",
+        "year": "1281",
+        "intro": "在元大都狱中以诗歌总结历代忠义之士精神谱系。"
+      }
+    ],
+    "links": [
+      [
+        "quyuan",
+        "殉国者精神谱系"
       ]
     ],
     "subjects": [
@@ -5918,6 +6220,82 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "boccaccio",
+    "subject": "literature",
+    "region": "world",
+    "year": 1353,
+    "dates": "1313—1375",
+    "name": "乔万尼·薄伽丘",
+    "alias": "十日谈作者",
+    "era": "medieval",
+    "period": "意大利",
+    "summary": "以十日谈将一百个故事变成对中世纪社会和教会的全景式讽刺与赞美。",
+    "life": "佛罗伦萨商人子弟彼特拉克的好友。",
+    "context": "黑死病后的意大利社会需要新的叙事。",
+    "style": [
+      "框架叙事的文学创新"
+    ],
+    "ideas": [
+      "故事作为对抗死亡的方式"
+    ],
+    "works": [
+      {
+        "title": "十日谈",
+        "year": "1353",
+        "intro": "以逃避瘟疫的十位青年讲述一百个故事。"
+      }
+    ],
+    "links": [
+      [
+        "dante",
+        "从神曲到人曲"
+      ],
+      [
+        "chaucer",
+        "中世纪故事传统的英意双峰"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
+    "id": "hafiz",
+    "subject": "literature",
+    "region": "world",
+    "year": 1370,
+    "dates": "约1315—1390",
+    "name": "哈菲兹",
+    "alias": "波斯抒情诗之王",
+    "era": "medieval",
+    "period": "波斯",
+    "summary": "以加扎尔抒情诗将美酒爱情与对伪善者的讽刺编织为最精致的波斯诗歌。",
+    "life": "设拉子人以背诵全部古兰经得名哈菲兹一生几乎未离开家乡。",
+    "context": "蒙古入侵后波斯文学进入抒情诗的黄金时代。",
+    "style": [
+      "精致的加扎尔体"
+    ],
+    "ideas": [
+      "美酒爱人与对伪善的蔑视"
+    ],
+    "works": [
+      {
+        "title": "哈菲兹诗集",
+        "year": "约1370",
+        "intro": "约500首加扎尔体抒情诗至今仍是伊朗家庭必备。"
+      }
+    ],
+    "links": [
+      [
+        "rumi",
+        "波斯文学双峰"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
     "id": "ibnkhaldun",
     "subject": "sociology",
     "region": "world",
@@ -5956,6 +6334,155 @@ const AUTHORS = [
       "sociology",
       "history",
       "politics"
+    ]
+  },
+  {
+    "id": "chaucer",
+    "subject": "literature",
+    "region": "world",
+    "year": 1400,
+    "dates": "约1343—1400",
+    "name": "杰弗里·乔叟",
+    "alias": "英语诗歌之父",
+    "era": "medieval",
+    "period": "英国",
+    "summary": "以坎特伯雷故事集将中古英语提升为文学语言其朝圣者群像堪比全社会的缩影。",
+    "life": "伦敦人曾任关税官外交官是第一个葬于西敏寺诗人角的作家。",
+    "context": "英语正在取代法语和拉丁语成为英格兰的文学语言。",
+    "style": [
+      "框架叙事与人物群像"
+    ],
+    "ideas": [
+      "让英语歌唱"
+    ],
+    "works": [
+      {
+        "title": "坎特伯雷故事集",
+        "year": "约1400",
+        "intro": "以朝圣者讲故事的形式写出中世纪英格兰社会的全景。"
+      }
+    ],
+    "links": [
+      [
+        "boccaccio",
+        "故事传统的英意双峰"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
+    "id": "vinci",
+    "subject": "history",
+    "region": "world",
+    "year": 1503,
+    "dates": "1452—1519",
+    "name": "列奥纳多·达·芬奇",
+    "alias": "文艺复兴全才",
+    "era": "early-modern",
+    "period": "意大利",
+    "summary": "以蒙娜丽莎和无数科学手稿将艺术与科学统一于一个人身上。",
+    "life": "意大利佛罗伦萨人绘画雕塑建筑科学无一不精。",
+    "context": "文艺复兴将人视为宇宙中心。",
+    "style": [
+      "艺术与科学统一"
+    ],
+    "ideas": [
+      "好奇心是知识之母"
+    ],
+    "works": [
+      {
+        "title": "蒙娜丽莎",
+        "year": "1503",
+        "intro": "以神秘微笑成为人类艺术最著名作品。"
+      }
+    ],
+    "links": [
+      [
+        "michelangelo",
+        "文艺复兴双峰"
+      ]
+    ],
+    "subjects": [
+      "history"
+    ]
+  },
+  {
+    "id": "raphael",
+    "subject": "history",
+    "region": "world",
+    "year": 1511,
+    "dates": "1483—1520",
+    "name": "拉斐尔",
+    "alias": "古典美化身",
+    "era": "early-modern",
+    "period": "意大利",
+    "summary": "以雅典学院将古代哲人聚集于同一空间代表文艺复兴调和古典与基督教理想。",
+    "life": "意大利画家以优雅和谐著称37岁早逝。",
+    "context": "文艺复兴盛期古典美的典范。",
+    "style": [
+      "优雅和谐的古典美"
+    ],
+    "ideas": [
+      "以画笔调和古今"
+    ],
+    "works": [
+      {
+        "title": "雅典学院",
+        "year": "1511",
+        "intro": "以柏拉图和亚里士多德为中心将古代哲人齐聚一堂。"
+      }
+    ],
+    "links": [
+      [
+        "vinci",
+        "文艺复兴三杰"
+      ]
+    ],
+    "subjects": [
+      "history"
+    ]
+  },
+  {
+    "id": "michelangelo",
+    "subject": "history",
+    "region": "world",
+    "year": 1512,
+    "dates": "1475—1564",
+    "name": "米开朗基罗",
+    "alias": "雕塑绘画建筑的巨人",
+    "era": "early-modern",
+    "period": "意大利",
+    "summary": "以大卫像和西斯廷天顶画将人体之美与神圣精神推向极致。",
+    "life": "佛罗伦萨人一生与大理石和颜料为对手。",
+    "context": "文艺复兴盛期教皇委托最宏大艺术工程。",
+    "style": [
+      "将人体雕刻为神性"
+    ],
+    "ideas": [
+      "大理石中沉睡的形象等待解放"
+    ],
+    "works": [
+      {
+        "title": "大卫像",
+        "year": "1504",
+        "intro": "以刚健的人体美表现文艺复兴对人的信心。"
+      },
+      {
+        "title": "西斯廷天顶画",
+        "year": "1512",
+        "intro": "以创世纪等九幅壁画重写人类起源。"
+      }
+    ],
+    "links": [
+      [
+        "vinci",
+        "文艺复兴双峰"
+      ]
+    ],
+    "subjects": [
+      "history"
     ]
   },
   {
@@ -6052,6 +6579,78 @@ const AUTHORS = [
       "philosophy",
       "politics"
     ]
+  },
+  {
+    "id": "rabelais",
+    "subject": "literature",
+    "region": "world",
+    "year": 1534,
+    "dates": "约1494—1553",
+    "name": "弗朗索瓦·拉伯雷",
+    "alias": "巨人传作者",
+    "era": "early-modern",
+    "period": "法国",
+    "summary": "以《巨人传》用笑声和荒诞挑战中世纪的权威与教条。",
+    "life": "法国修士医生以狂欢式的幽默写作。",
+    "context": "文艺复兴人文主义精神需要新的文学形式。",
+    "style": [
+      "狂欢式幽默与荒诞"
+    ],
+    "ideas": [
+      "笑声中的解放"
+    ],
+    "works": [
+      {
+        "title": "巨人传",
+        "year": "1532",
+        "intro": "以巨人父子的冒险写尽人文主义理想。"
+      }
+    ],
+    "links": [
+      [
+        "shakespeare",
+        "文艺复兴文学的两种面貌"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
+    "id": "vesalius",
+    "subject": "history",
+    "region": "world",
+    "year": 1543,
+    "dates": "1514—1564",
+    "name": "安德烈亚斯·维萨里",
+    "alias": "近代解剖学创立者",
+    "period": "文艺复兴",
+    "summary": "以《人体构造》首次基于亲身解剖而非古人权威描述人体。",
+    "life": "布鲁塞尔人，帕多瓦大学教授。被宗教裁判所判朝圣赎罪归途中遇难。",
+    "context": "文艺复兴实证精神向人体本身挑战。",
+    "style": [
+      "以亲身体验替代书本权威"
+    ],
+    "ideas": [
+      "身体必须亲自去看"
+    ],
+    "works": [
+      {
+        "title": "人体构造",
+        "year": "1543",
+        "intro": "七卷以精美插图展示人体的真实构造。"
+      }
+    ],
+    "links": [
+      [
+        "darwin",
+        "从解剖自己到理解生命的历史"
+      ]
+    ],
+    "subjects": [
+      "history"
+    ],
+    "era": "early-modern"
   },
   {
     "id": "xuwei",
@@ -6313,6 +6912,43 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "xusongzhiluo",
+    "subject": "history",
+    "region": "china",
+    "year": 1635,
+    "dates": "1587—1641",
+    "name": "徐霞客",
+    "alias": "中国地理探险的先驱",
+    "period": "明末",
+    "summary": "以三十年徒步考察中国十六省记录山川地貌洞穴岩溶与人文风俗。",
+    "life": "南直隶江阴人放弃科举以丈夫当朝碧海而暮苍梧为志向。五十五岁因足疾终止旅行归家后不久病逝。",
+    "context": "晚明社会风气开放旅游和山水文学盛行。",
+    "style": [
+      "实地考察与文献互证"
+    ],
+    "ideas": [
+      "知行合一的旅人精神自然作为知识的来源"
+    ],
+    "works": [
+      {
+        "title": "徐霞客游记",
+        "year": "约1640",
+        "intro": "六十余万字日记体游记记录了详尽的地理水文和民俗观察。"
+      }
+    ],
+    "links": [
+      [
+        "simaqian",
+        "壮游传统与实地考察"
+      ]
+    ],
+    "subjects": [
+      "history",
+      "literature"
+    ],
+    "era": "early-modern"
+  },
+  {
     "id": "descartes",
     "subject": "philosophy",
     "region": "world",
@@ -6402,6 +7038,42 @@ const AUTHORS = [
     ],
     "subjects": [
       "sociology",
+      "history"
+    ]
+  },
+  {
+    "id": "rembrandt",
+    "subject": "history",
+    "region": "world",
+    "year": 1642,
+    "dates": "1606—1669",
+    "name": "伦勃朗",
+    "alias": "光影的大师",
+    "era": "early-modern",
+    "period": "荷兰",
+    "summary": "以夜巡和自画像系列将光影从技巧提升为灵魂的透视。",
+    "life": "荷兰莱顿人一生从辉煌到破产以自画像记录自己衰老。",
+    "context": "荷兰黄金时代绘画走向市民社会。",
+    "style": [
+      "光影从技巧到灵魂"
+    ],
+    "ideas": [
+      "自画像作为一生的忏悔"
+    ],
+    "works": [
+      {
+        "title": "夜巡",
+        "year": "1642",
+        "intro": "以戏剧性光影颠覆团体肖像传统。"
+      }
+    ],
+    "links": [
+      [
+        "caravaggio",
+        "光影革命"
+      ]
+    ],
+    "subjects": [
       "history"
     ]
   },
@@ -7711,6 +8383,47 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "mozart",
+    "subject": "history",
+    "region": "world",
+    "year": 1788,
+    "dates": "1756—1791",
+    "name": "沃尔夫冈·阿马德乌斯·莫扎特",
+    "alias": "音乐的奇迹",
+    "era": "early-modern",
+    "period": "神圣罗马帝国",
+    "summary": "以六百多部作品在短短35年生命中完成了音乐史上最灿烂的创造。",
+    "life": "萨尔茨堡人神童出身一生贫困以辉煌的葬礼收场。",
+    "context": "启蒙运动晚期音乐从宫廷走向公众。",
+    "style": [
+      "清澈而深刻的完美"
+    ],
+    "ideas": [
+      "音乐是天使的语言"
+    ],
+    "works": [
+      {
+        "title": "魔笛",
+        "year": "1791",
+        "intro": "以共济会隐喻写启蒙理想。"
+      },
+      {
+        "title": "安魂曲",
+        "year": "1791",
+        "intro": "未完成的遗作被认为是写给自己的葬礼。"
+      }
+    ],
+    "links": [
+      [
+        "beethoven",
+        "古典音乐的传承"
+      ]
+    ],
+    "subjects": [
+      "history"
+    ]
+  },
+  {
     "id": "bentham",
     "subject": "law",
     "region": "world",
@@ -7856,6 +8569,47 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "beethoven",
+    "subject": "history",
+    "region": "world",
+    "year": 1804,
+    "dates": "1770—1827",
+    "name": "路德维希·凡·贝多芬",
+    "alias": "音乐的革命者",
+    "era": "modern",
+    "period": "神圣罗马帝国",
+    "summary": "以英雄交响曲和第九交响曲将音乐从宫廷娱乐提升为人类精神的最高表达。",
+    "life": "波恩人定居维也纳逐渐失聪后仍创作出最伟大的作品。",
+    "context": "法国大革命的自由理想需要新的音乐语言。",
+    "style": [
+      "从古典形式到浪漫爆发"
+    ],
+    "ideas": [
+      "音乐是比一切智慧更高的启示"
+    ],
+    "works": [
+      {
+        "title": "英雄交响曲",
+        "year": "1804",
+        "intro": "原题为拿破仑而作后因拿破仑称帝而愤怒撤去。"
+      },
+      {
+        "title": "第九交响曲",
+        "year": "1824",
+        "intro": "以欢乐颂结尾首次在交响乐中引入人声。"
+      }
+    ],
+    "links": [
+      [
+        "mozart",
+        "从古典到浪漫过渡"
+      ]
+    ],
+    "subjects": [
+      "history"
+    ]
+  },
+  {
     "id": "hegel",
     "subject": "philosophy",
     "region": "world",
@@ -7993,6 +8747,42 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "goya",
+    "subject": "history",
+    "region": "world",
+    "year": 1814,
+    "dates": "1746—1828",
+    "name": "弗朗西斯科·戈雅",
+    "alias": "近代绘画先驱",
+    "era": "modern",
+    "period": "西班牙",
+    "summary": "以1808年5月3日将战争暴行化为永恒控诉以黑色绘画探索人类心灵的黑暗。",
+    "life": "西班牙宫廷画家经历拿破仑战争后失聪隐居。",
+    "context": "启蒙运动与战争暴行之间的巨大张力。",
+    "style": [
+      "从宫廷优雅到黑暗深处"
+    ],
+    "ideas": [
+      "理性沉睡产生怪物"
+    ],
+    "works": [
+      {
+        "title": "1808年5月3日",
+        "year": "1814",
+        "intro": "以枪决场面将战争暴行化为永恒图像。"
+      }
+    ],
+    "links": [
+      [
+        "picasso",
+        "从戈雅到毕加索控诉战争传统"
+      ]
+    ],
+    "subjects": [
+      "history"
+    ]
+  },
+  {
     "id": "rank",
     "subject": "history",
     "region": "world",
@@ -8041,6 +8831,42 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "delacroix",
+    "subject": "literature",
+    "region": "world",
+    "year": 1830,
+    "dates": "1798—1863",
+    "name": "欧仁·德拉克洛瓦",
+    "alias": "浪漫主义绘画旗手",
+    "era": "modern",
+    "period": "法国",
+    "summary": "以《自由引导人民》将革命激情与浪漫想象熔铸为时代肖像。",
+    "life": "法国画家以大胆色彩和动态构图打破古典主义规范。",
+    "context": "法国七月革命后浪漫主义成为时代精神。",
+    "style": [
+      "大胆色彩与动态构图"
+    ],
+    "ideas": [
+      "自由引导人民"
+    ],
+    "works": [
+      {
+        "title": "自由引导人民",
+        "year": "1830",
+        "intro": "以女神形象象征革命精神。"
+      }
+    ],
+    "links": [
+      [
+        "hugo",
+        "浪漫主义文学与绘画双翼"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
     "id": "john_austin",
     "subject": "law",
     "region": "world",
@@ -8081,6 +8907,42 @@ const AUTHORS = [
     ],
     "subjects": [
       "law"
+    ]
+  },
+  {
+    "id": "pushkin",
+    "subject": "literature",
+    "region": "world",
+    "year": 1833,
+    "dates": "1799—1837",
+    "name": "亚历山大·普希金",
+    "alias": "俄罗斯文学之父",
+    "era": "modern",
+    "period": "俄罗斯",
+    "summary": "以叶甫盖尼奥涅金创造了俄罗斯文学语言开创了俄罗斯文学的所有主要方向。",
+    "life": "莫斯科人非洲裔曾外孙因决斗而死年仅三十七。",
+    "context": "俄罗斯文学正在从法国文学的影响中独立出来。",
+    "style": [
+      "创造俄罗斯文学语言"
+    ],
+    "ideas": [
+      "文学是民族精神的表达"
+    ],
+    "works": [
+      {
+        "title": "叶甫盖尼奥涅金",
+        "year": "1833",
+        "intro": "以诗体小说写多余人的悲剧。"
+      }
+    ],
+    "links": [
+      [
+        "tolstoy",
+        "俄罗斯文学的源头"
+      ]
+    ],
+    "subjects": [
+      "literature"
     ]
   },
   {
@@ -8252,6 +9114,43 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "gongyangzhen",
+    "subject": "literature",
+    "region": "china",
+    "year": 1839,
+    "dates": "1792—1841",
+    "name": "龚自珍",
+    "alias": "近代变革先声",
+    "period": "清道光",
+    "summary": "以我劝天公重抖擞不拘一格降人才呼唤变革。",
+    "life": "浙江仁和人出身官宦世家屡试不第晚年辞官南归。",
+    "context": "鸦片战争前夕帝国内部危机已无法掩盖。",
+    "style": [
+      "奇崛瑰丽诗文风格"
+    ],
+    "ideas": [
+      "尊史与更法人才发现与压抑"
+    ],
+    "works": [
+      {
+        "title": "己亥杂诗",
+        "year": "1839",
+        "intro": "315首七绝写尽去国之痛与济世之志。"
+      }
+    ],
+    "links": [
+      [
+        "luxun",
+        "近代批判精神前驱"
+      ]
+    ],
+    "subjects": [
+      "literature",
+      "politics"
+    ],
+    "era": "modern"
+  },
+  {
     "id": "emerson",
     "subject": "philosophy",
     "region": "world",
@@ -8388,6 +9287,115 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "humboldt",
+    "subject": "history",
+    "region": "world",
+    "year": 1845,
+    "dates": "1769—1859",
+    "name": "亚历山大·冯·洪堡",
+    "alias": "近代地理学奠基者",
+    "period": "普鲁士",
+    "summary": "以五年南美洲考察和《宇宙》五卷将自然理解为一个活的整体。",
+    "life": "柏林贵族，耗尽家产支持科学探险。",
+    "context": "学科专业化的起点。",
+    "style": [
+      "将科学观察与文学描写结合"
+    ],
+    "ideas": [
+      "自然是活的网络"
+    ],
+    "works": [
+      {
+        "title": "宇宙",
+        "year": "1845",
+        "intro": "五卷以自然的总体图景为宗旨。"
+      }
+    ],
+    "links": [
+      [
+        "darwin",
+        "洪堡对达尔文的启发"
+      ]
+    ],
+    "subjects": [
+      "history",
+      "philosophy"
+    ],
+    "era": "modern"
+  },
+  {
+    "id": "emily_bronte",
+    "subject": "literature",
+    "region": "world",
+    "year": 1847,
+    "dates": "1818—1848",
+    "name": "艾米莉·勃朗特",
+    "alias": "呼啸山庄作者",
+    "era": "modern",
+    "period": "英国",
+    "summary": "以《呼啸山庄》写出英国文学中最暴烈最热烈的爱情与复仇。",
+    "life": "约克郡牧师之女与姐姐夏洛特和妹妹安妮并称勃朗特三姐妹。",
+    "context": "维多利亚时代女性写作的高峰。",
+    "style": [
+      "暴烈而深刻的情感书写"
+    ],
+    "ideas": [
+      "爱与恨的不可分割"
+    ],
+    "works": [
+      {
+        "title": "呼啸山庄",
+        "year": "1847",
+        "intro": "以希斯克利夫和凯瑟琳的爱情与复仇写尽人性深渊。"
+      }
+    ],
+    "links": [
+      [
+        "janeausten",
+        "女性小说传统的延续与颠覆"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
+    "id": "emilybronte",
+    "subject": "literature",
+    "region": "world",
+    "year": 1847,
+    "dates": "1818—1848",
+    "name": "艾米莉·勃朗特",
+    "alias": "呼啸山庄作者",
+    "era": "modern",
+    "period": "英国",
+    "summary": "以呼啸山庄写出英国文学最暴烈最热烈的爱情与复仇。",
+    "life": "约克郡牧师之女。",
+    "context": "维多利亚时代女性写作高峰。",
+    "style": [
+      "暴烈深刻情感书写"
+    ],
+    "ideas": [
+      "爱与恨不可分割"
+    ],
+    "works": [
+      {
+        "title": "呼啸山庄",
+        "year": "1847",
+        "intro": "以希斯克利夫和凯瑟琳写尽人性深渊。"
+      }
+    ],
+    "links": [
+      [
+        "janeausten",
+        "女性小说传统"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
     "id": "marx",
     "subject": "sociology",
     "region": "world",
@@ -8434,6 +9442,115 @@ const AUTHORS = [
     "subjects": [
       "sociology",
       "politics",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "liszt",
+    "subject": "literature",
+    "region": "world",
+    "year": 1850,
+    "dates": "1811—1886",
+    "name": "弗朗茨·李斯特",
+    "alias": "钢琴之王",
+    "era": "modern",
+    "period": "匈牙利",
+    "summary": "以空前绝后的钢琴技巧和交响诗体裁将音乐从客厅推向公众。",
+    "life": "匈牙利人少年成名巡演全欧洲晚年皈依宗教。",
+    "context": "浪漫主义音乐达到顶峰。",
+    "style": [
+      "交响诗体裁开创"
+    ],
+    "ideas": [
+      "音乐作为公众力量"
+    ],
+    "works": [
+      {
+        "title": "匈牙利狂想曲",
+        "year": "1846",
+        "intro": "以匈牙利民间音乐为素材展现民族精神。"
+      }
+    ],
+    "links": [
+      [
+        "beethoven",
+        "钢琴音乐传承"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
+    "id": "hawthorne",
+    "subject": "literature",
+    "region": "world",
+    "year": 1850,
+    "dates": "1804—1864",
+    "name": "纳撒尼尔·霍桑",
+    "alias": "美国浪漫主义小说家",
+    "era": "modern",
+    "period": "美国",
+    "summary": "以《红字》将清教徒的罪恶感与个人良知写成美国文学最沉重的道德寓言。",
+    "life": "马萨诸塞人祖先是塞勒姆女巫审判法官一生背负祖先罪孽。",
+    "context": "年轻的美国文学需要自己的经典。",
+    "style": [
+      "道德寓言的象征手法"
+    ],
+    "ideas": [
+      "罪恶感与救赎"
+    ],
+    "works": [
+      {
+        "title": "红字",
+        "year": "1850",
+        "intro": "以通奸女子海丝特胸前的红色A字写尽罪恶惩罚与救赎。"
+      }
+    ],
+    "links": [
+      [
+        "melville",
+        "美国浪漫主义的两位代表"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
+    "id": "melville",
+    "subject": "literature",
+    "region": "world",
+    "year": 1851,
+    "dates": "1819—1891",
+    "name": "赫尔曼·梅尔维尔",
+    "alias": "白鲸的作者",
+    "era": "modern",
+    "period": "美国",
+    "summary": "以《白鲸》将捕鲸变成对命运执念与疯狂的形而上学追问。",
+    "life": "纽约人在船上当过水手以白鲸献给霍桑。",
+    "context": "美国文学从浪漫主义向现代主义过渡。",
+    "style": [
+      "史诗般的象征叙事"
+    ],
+    "ideas": [
+      "对白鲸的执念即对人类命运的追问"
+    ],
+    "works": [
+      {
+        "title": "白鲸",
+        "year": "1851",
+        "intro": "以亚哈船长追捕白鲸的疯狂旅程写尽执念与毁灭。"
+      }
+    ],
+    "links": [
+      [
+        "hawthorne",
+        "美国浪漫主义两位代表"
+      ]
+    ],
+    "subjects": [
+      "literature",
       "philosophy"
     ]
   },
@@ -8892,6 +10009,47 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "monet",
+    "subject": "history",
+    "region": "world",
+    "year": 1872,
+    "dates": "1840—1926",
+    "name": "克洛德·莫奈",
+    "alias": "印象派命名者",
+    "era": "modern",
+    "period": "法国",
+    "summary": "以日出印象为印象派命名以睡莲系列将光影变化推到极致。",
+    "life": "法国人在吉维尼花园创作近三十年睡莲。",
+    "context": "绘画从画室走向户外光本身成为主题。",
+    "style": [
+      "光与色的分解"
+    ],
+    "ideas": [
+      "光本身即是主题"
+    ],
+    "works": [
+      {
+        "title": "日出印象",
+        "year": "1872",
+        "intro": "以勒阿弗尔港口的晨雾命名一个画派。"
+      },
+      {
+        "title": "睡莲系列",
+        "year": "1899",
+        "intro": "近250幅以水面倒影捕捉光的无穷变化。"
+      }
+    ],
+    "links": [
+      [
+        "turner",
+        "光色革命"
+      ]
+    ],
+    "subjects": [
+      "history"
+    ]
+  },
+  {
     "id": "ibsen",
     "subject": "literature",
     "region": "world",
@@ -8931,6 +10089,42 @@ const AUTHORS = [
     ],
     "subjects": [
       "literature"
+    ]
+  },
+  {
+    "id": "rodin",
+    "subject": "history",
+    "region": "world",
+    "year": 1880,
+    "dates": "1840—1917",
+    "name": "奥古斯特·罗丹",
+    "alias": "现代雕塑之父",
+    "era": "modern",
+    "period": "法国",
+    "summary": "以思想者和地狱之门将雕塑从古典理想推向人类灵魂的表达。",
+    "life": "法国人以现实主义打破理想化雕塑传统。",
+    "context": "现代艺术需要新的雕塑语言。",
+    "style": [
+      "以未完成感表达灵魂"
+    ],
+    "ideas": [
+      "雕塑是凹陷与凸起的艺术"
+    ],
+    "works": [
+      {
+        "title": "思想者",
+        "year": "1880",
+        "intro": "原本为地狱之门一部分后独立成为人类精神的象征。"
+      }
+    ],
+    "links": [
+      [
+        "michelangelo",
+        "雕塑从神性到人性"
+      ]
+    ],
+    "subjects": [
+      "history"
     ]
   },
   {
@@ -9023,6 +10217,78 @@ const AUTHORS = [
     ],
     "subjects": [
       "philosophy",
+      "literature"
+    ]
+  },
+  {
+    "id": "van_gogh",
+    "subject": "literature",
+    "region": "world",
+    "year": 1888,
+    "dates": "1853—1890",
+    "name": "文森特·梵高",
+    "alias": "后印象派殉道者",
+    "era": "modern",
+    "period": "荷兰",
+    "summary": "以燃烧般的色彩和扭曲的笔触将内心痛苦转化为视觉风暴。",
+    "life": "荷兰人一生贫困靠弟弟提奥接济在阿尔勒割耳后在精神病院创作。",
+    "context": "19世纪末艺术从客观再现转向主观表达。",
+    "style": [
+      "燃烧般色彩与扭曲笔触"
+    ],
+    "ideas": [
+      "用生命作画的极限"
+    ],
+    "works": [
+      {
+        "title": "星月夜",
+        "year": "1889",
+        "intro": "以漩涡般星空表达内心风暴。"
+      }
+    ],
+    "links": [
+      [
+        "gauguin",
+        "后印象派两位殉道者"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
+    "id": "vangogh",
+    "subject": "literature",
+    "region": "world",
+    "year": 1888,
+    "dates": "1853—1890",
+    "name": "文森特·梵高",
+    "alias": "后印象派殉道者",
+    "era": "modern",
+    "period": "荷兰",
+    "summary": "以燃烧般色彩和扭曲笔触将内心痛苦转化为视觉风暴。",
+    "life": "荷兰人一生贫困靠弟弟接济在精神病院创作。",
+    "context": "艺术从客观再现转向主观表达。",
+    "style": [
+      "燃烧般色彩"
+    ],
+    "ideas": [
+      "用生命作画极限"
+    ],
+    "works": [
+      {
+        "title": "星月夜",
+        "year": "1889",
+        "intro": "以漩涡般星空表达内心风暴。"
+      }
+    ],
+    "links": [
+      [
+        "gauguin",
+        "后印象派"
+      ]
+    ],
+    "subjects": [
       "literature"
     ]
   },
@@ -9637,6 +10903,47 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "picasso",
+    "subject": "literature",
+    "region": "world",
+    "year": 1907,
+    "dates": "1881—1973",
+    "name": "巴勃罗·毕加索",
+    "alias": "20世纪艺术革命者",
+    "era": "modern",
+    "period": "西班牙",
+    "summary": "以《亚威农少女》打破五百年的透视传统创立立体主义。",
+    "life": "西班牙马拉加人一生变换多种风格从不停歇。",
+    "context": "20世纪初艺术需要彻底打破传统的勇气。",
+    "style": [
+      "立体主义开创"
+    ],
+    "ideas": [
+      "艺术不是模仿而是创造"
+    ],
+    "works": [
+      {
+        "title": "亚威农少女",
+        "year": "1907",
+        "intro": "以多角度同时呈现打破单一视点。"
+      },
+      {
+        "title": "格尔尼卡",
+        "year": "1937",
+        "intro": "以黑白灰三色控诉战争暴行。"
+      }
+    ],
+    "links": [
+      [
+        "cezanne",
+        "从塞尚到毕加索视觉革命"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
     "id": "pound",
     "subject": "law",
     "region": "world",
@@ -10183,6 +11490,47 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "zhuziqing",
+    "subject": "literature",
+    "region": "china",
+    "year": 1920,
+    "dates": "1898—1948",
+    "name": "朱自清",
+    "alias": "白话美文典范",
+    "period": "民国",
+    "summary": "以《背影》《荷塘月色》将白话文提升到可以承载最深情的文学高度。",
+    "life": "江苏东海人北大毕业清华教授抗战期间在西南联大任教。",
+    "context": "新文学需要证明白话文不仅可以呐喊也可以低语和抒情。",
+    "style": [
+      "朴素深情散文语言"
+    ],
+    "ideas": [
+      "白话文美学可能性"
+    ],
+    "works": [
+      {
+        "title": "背影",
+        "year": "1925",
+        "intro": "以父亲穿过铁轨买橘子的背影写出中国文学中最动人父子情。"
+      },
+      {
+        "title": "荷塘月色",
+        "year": "1927",
+        "intro": "以月下荷塘静美写知识分子精神困境。"
+      }
+    ],
+    "links": [
+      [
+        "luxun",
+        "白话文学两种可能"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ],
+    "era": "modern"
+  },
+  {
     "id": "wittgenstein",
     "subject": "philosophy",
     "region": "world",
@@ -10333,6 +11681,42 @@ const AUTHORS = [
     "subjects": [
       "literature"
     ]
+  },
+  {
+    "id": "joyce",
+    "subject": "literature",
+    "region": "world",
+    "year": 1922,
+    "dates": "1882—1941",
+    "name": "詹姆斯·乔伊斯",
+    "alias": "现代主义小说革命者",
+    "period": "爱尔兰",
+    "summary": "以《尤利西斯》将一天都柏林漫游写成意识流百科全书。",
+    "life": "都柏林人自我流放至巴黎苏黎世晚年几乎失明。",
+    "context": "一战打破维多利亚时代一切确定性。",
+    "style": [
+      "意识流极致运用"
+    ],
+    "ideas": [
+      "小说可能性尚未穷尽"
+    ],
+    "works": [
+      {
+        "title": "尤利西斯",
+        "year": "1922",
+        "intro": "以900页写1904年6月16日都柏林三个普通人内心世界。"
+      }
+    ],
+    "links": [
+      [
+        "homer",
+        "从史诗到现代反史诗"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ],
+    "era": "modern"
   },
   {
     "id": "heidegger",
@@ -11856,6 +13240,43 @@ const AUTHORS = [
     ]
   },
   {
+    "id": "levistrauss",
+    "subject": "sociology",
+    "region": "world",
+    "year": 1955,
+    "dates": "1908—2009",
+    "name": "克洛德·列维-斯特劳斯",
+    "alias": "结构人类学创立者",
+    "period": "法国",
+    "summary": "以《忧郁的热带》和神话研究将人类学转向对人类心灵普遍结构的探寻。",
+    "life": "比利时出生，法国求学。二战流亡纽约催生了结构主义。",
+    "context": "战后殖民体系崩塌人类学需要新的框架。",
+    "style": [
+      "将神话作为心灵结构的密码"
+    ],
+    "ideas": [
+      "野性的思维"
+    ],
+    "works": [
+      {
+        "title": "忧郁的热带",
+        "year": "1955",
+        "intro": "以自传民族志哲学三合一的文体写旅行与沉思。"
+      }
+    ],
+    "links": [
+      [
+        "foucault",
+        "结构主义的两位巨人"
+      ]
+    ],
+    "subjects": [
+      "sociology",
+      "philosophy"
+    ],
+    "era": "contemporary"
+  },
+  {
     "id": "goffman",
     "subject": "sociology",
     "region": "world",
@@ -12118,6 +13539,47 @@ const AUTHORS = [
     "era": "contemporary"
   },
   {
+    "id": "plath",
+    "subject": "literature",
+    "region": "world",
+    "year": 1963,
+    "dates": "1932—1963",
+    "name": "西尔维亚·普拉斯",
+    "alias": "自白派诗人",
+    "era": "contemporary",
+    "period": "美国",
+    "summary": "以《钟形罩》和《爱丽尔》将女性经验精神疾病与死亡意识写成最赤裸的诗歌。",
+    "life": "波士顿人剑桥毕业与英国诗人特德·休斯结婚后自杀。",
+    "context": "二战后女性开始用诗歌直接表达内心最私密的经验。",
+    "style": [
+      "自白派的极致坦诚"
+    ],
+    "ideas": [
+      "死亡与重生的循环"
+    ],
+    "works": [
+      {
+        "title": "钟形罩",
+        "year": "1963",
+        "intro": "以自传体小说写女性在精神病院中的挣扎。"
+      },
+      {
+        "title": "爱丽尔",
+        "year": "1965",
+        "intro": "死后出版的诗集以飞马般速度写尽狂喜与绝望。"
+      }
+    ],
+    "links": [
+      [
+        "woolf",
+        "女性写作从意识流到自白派"
+      ]
+    ],
+    "subjects": [
+      "literature"
+    ]
+  },
+  {
     "id": "mcluhan",
     "subject": "sociology",
     "region": "world",
@@ -12295,6 +13757,42 @@ const AUTHORS = [
     ],
     "subjects": [
       "philosophy",
+      "literature"
+    ]
+  },
+  {
+    "id": "garcia_marquez",
+    "subject": "literature",
+    "region": "world",
+    "year": 1967,
+    "dates": "1927—2014",
+    "name": "加夫列尔·加西亚·马尔克斯",
+    "alias": "魔幻现实主义代表",
+    "era": "contemporary",
+    "period": "哥伦比亚",
+    "summary": "以百年孤独将家族记忆拉美历史和神话元素织入小说。",
+    "life": "哥伦比亚人早年从事新闻工作流亡游历欧洲1982年获诺贝尔奖。",
+    "context": "拉美文学爆炸。",
+    "style": [
+      "魔幻现实主义"
+    ],
+    "ideas": [
+      "拉美孤独与历史循环"
+    ],
+    "works": [
+      {
+        "title": "百年孤独",
+        "year": "1967",
+        "intro": "以马孔多镇和布恩迪亚家族七代人编织创世繁荣与毁灭。"
+      }
+    ],
+    "links": [
+      [
+        "borges",
+        "拉美文学两座高峰"
+      ]
+    ],
+    "subjects": [
       "literature"
     ]
   },
