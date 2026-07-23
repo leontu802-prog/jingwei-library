@@ -291,6 +291,22 @@ function clearMapFilters() {
   renderSubjectFilters('#subjectFilters', 'subject'); renderMap(); renderTimeline()
 }
 
+function initFlowDrag() {
+  $$('.flow-scroll').forEach(el => {
+    let down = false, startX, scrollLeft
+    el.addEventListener('mousedown', e => {
+      const person = e.target.closest('.flow-person')
+      if (person) return // don't interfere with person click
+      down = true; el.style.cursor = 'grabbing'; startX = e.pageX - el.offsetLeft; scrollLeft = el.scrollLeft
+    })
+    el.addEventListener('mouseleave', () => { down = false; el.style.cursor = '' })
+    el.addEventListener('mouseup', () => { down = false; el.style.cursor = '' })
+    el.addEventListener('mousemove', e => {
+      if (!down) return; e.preventDefault(); const x = e.pageX - el.offsetLeft; el.scrollLeft = scrollLeft - (x - startX)
+    })
+  })
+}
+
 function bind() {
   document.addEventListener('click', event => {
     const view = event.target.closest('[data-view]'); if (view) switchView(view.dataset.view)
@@ -325,6 +341,8 @@ function bind() {
   $('#savedButton').onclick = () => { state.savedOnly = true; $('#savedOnly').classList.add('is-on'); switchView('timeline'); setMapMode('compare'); renderTimeline() }
   $('#drawerClose').onclick = closeDrawer; $('#drawerBackdrop').onclick = closeDrawer
   document.onkeydown = event => { if (event.key === 'Escape') closeDrawer() }
+  // Drag-to-scroll on flow lanes
+  initFlowDrag()
 }
 
 function init() {
