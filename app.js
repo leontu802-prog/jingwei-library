@@ -106,9 +106,8 @@ function flowLane(subjectData, authors) {
   return `<div class="flow-lane" style="--subject-color:${subjectData.color}">
     <div class="flow-title"><span>${subjectData.glyph}</span><b>${subjectData.name}</b><small>${authors.length} 位人物</small></div>
     <div class="flow-scroll-wrap">
-      <button class="flow-arrow flow-arrow-left" data-scroll="${laneId}" data-dir="-1" aria-label="向左滚动">◀</button>
       <div class="flow-scroll" id="${laneId}">${nodes}</div>
-      <button class="flow-arrow flow-arrow-right" data-scroll="${laneId}" data-dir="1" aria-label="向右滚动">▶</button>
+      <div class="flow-scrollbar" data-scroll="${laneId}"></div>
     </div>
   </div>`
 }
@@ -321,11 +320,11 @@ function bind() {
       else { const detail = event.target.closest('[data-detail]'); if (detail) openEvent(detail.dataset.detail, detail.dataset.side) }
     }
     const status = event.target.closest('[data-status]'); if (status) setBookStatus(status.parentElement.dataset.book, status.dataset.status)
-    // Flow lane scroll arrows
-    const flowArrow = event.target.closest('[data-scroll]')
-    if (flowArrow) {
-      const el = document.getElementById(flowArrow.dataset.scroll)
-      if (el) el.scrollBy({ left: parseInt(flowArrow.dataset.dir) * 300, behavior: 'smooth' })
+    // Flow scrollbar click — scroll right by 300px
+    const scrollbar = event.target.closest('.flow-scrollbar')
+    if (scrollbar) {
+      const el = document.getElementById(scrollbar.dataset.scroll)
+      if (el) el.scrollBy({ left: 300, behavior: 'smooth' })
     }
   })
   $('#timelineSearch').oninput = event => { state.timelineQuery = event.target.value; renderMap(); renderTimeline() }
